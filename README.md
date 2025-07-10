@@ -77,15 +77,6 @@ Rank, Country, Estimated Number of Expats
 12. India	500–1,000
 
 
-President@chiangmaiexpatsclub.com,  
-Web@chiangmaiexpatsclub.com,
-Website@chiangmaiexpatsclub.com,
-webguru@chiangmaiexpatsclub.com
-
-shayneinthailan@gmail.com, patrick@salween.io, ndean100@gmail.com, 
-
-
-
 
 
 The attached document serves as a comprehensive and up-to-date resource guide for expats living in Chiang Mai, offering a wide array of links covering essential aspects of expat life. Its strengths lie in the breadth of topics addressed, including visas, housing, healthcare, community groups, news, daily life, and local attractions. The guide is particularly valuable for newcomers, as it consolidates practical information and reputable sources, making it easier to navigate the complexities of settling in a new city. The inclusion of both official resources (such as government and embassy sites) and community-driven platforms (like forums and Meetup groups) ensures that users can access both authoritative information and peer support.
