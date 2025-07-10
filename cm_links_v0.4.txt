@@ -1,0 +1,699 @@
+You are the website administrator for a new site similar to the Chiang Mai Expats Club Website and must produce a page of curated links, a guide to help someone by providing the web resources that would be useful to someone recently retired to Chiang Mai, Thailand but also relevant to people thinking about moving or relocating and also relevant to people who have been here several years or decades. It should cover all aspects of practical daily life here and frequently asked questions for residents of Chiang Mai. The list should have approximately 30 sections, very similar to an expanded version of the existing Chiang Mai Expats resources guide (ERG), such as an introduction to the city, places to see and visit, cultural attractions, museums, temples, local events listings (like a link to Steve's tiny list), current weather with rain forecast and air quality, popular YouTube channels, local news sites and forums (like a link to aseannow.com), places to shop (like a link to www.cmhy.city), malls, markets, visas, banking, internet providers, local public transport (like the hop and go bus), hiring cars and motorbikes, health providers, annual health checks, dentists, rental listing sites for Condos and houses, sports clubs and local activities and so on. Each section should consist of the 10 most popular relevant links. Only include live, working links. Order the sections similar to the existing ERG, with the most likely to encounter or need nearer the top. For each item in each section of the list provide a heading title, a single line summary of the link and the hyperlink url.
+
+A Curated Web Resource Guide for Chiang Mai Expats
+Welcome to Chiang Mai! This guide is designed to help new and long-term expatriates navigate daily life in this beautiful city. Below you will find a curated list of online resources covering a wide range of topics, from practical necessities to leisure and cultural activities.
+
+1. Introduction to Chiang Mai
+A general overview for those new to the city, covering its culture, lifestyle, and what to expect.
+
+Living In Chiang Mai As An Expat Retiree - A detailed guide on what it's like to live in Chiang Mai as a retiree.
+https://www.expatra.com/living-in-chiang-mai/
+
+Nomad List: Chiang Mai - Provides a breakdown of the cost of living, weather, and other metrics for digital nomads.
+https://nomadlist.com/chiang-mai
+
+Chiang Mai Travel Guide - A general travel guide from a popular travel blog, useful for getting to know the city.
+https://www.hotels.com/go/thailand/chiang-mai
+
+The Expat’s Guide to Chiang Mai - An overview of neighbourhoods, cost of living and lifestyle.
+https://internationalliving.com/countries/thailand/chiang-mai/
+
+Why I Live in Chiang Mai - A personal blog post detailing the reasons for choosing Chiang Mai.
+https://www.neverendingvoyage.com/living-chiang-mai-guide/
+
+An article from Forbes highlighting the benefits of retiring in Thailand.
+https://www.forbes.com/sites/kathleenpeddicord/2025/04/05/retiring-in-thailand-what-you-need-to-know/
+
+Chiang Mai Loca-Pedia - A comprehensive A-Z guide for residents. 
+Chiang Mai's largest online business directory with more than 7,000 places listed. ***
+https://www.chiangmailocator.com/
+
+Chiang Mai Information and Guide from the Tourism Authority of Thailand. 
+https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101
+
+2. Visas and Immigration
+Essential information on visas for retirees and long-term residents.
+
+Thailand Retirement Visas Guide - A comprehensive guide to the different types of retirement visas.
+https://retirementvillages.asia/thailand/retirement-visa-thailand/the-ultimate-guide-to-thailand-retirement-visas/
+
+Chiang Mai Immigration Office - The official website for the Chiang Mai immigration office.
+https://chiangmai.immigration.go.th/
+
+Thai Immigration Bureau - The main website for the Thai Immigration Bureau.
+https://www.immigration.go.th/
+
+90-Day Reporting Online - The online portal for the mandatory 90-day reporting.
+https://www.immigration.go.th/
+
+ThaiEmbassy.com (website by Siam Legal International – a law firm in Thailand) - Thailand Retirement Visa - Detailed information on the requirements and application process.
+https://www.thaiembassy.com/thailand/retirement-visa.php
+
+Siam Legal - Details of all the possible visas available for Thailand. 
+https://www.siam-legal.com/thailand-visa/thailand-visa.php
+
+Thaiger - Details of all the possible visas available for Thailand. 
+https://thethaiger.com/visas/
+
+ASEAN NOW - Visa Info - A popular forum with a dedicated section for visa and immigration questions. ***
+https://aseannow.com/forum/61-thailand-visa-and-immigration-forum/
+
+Thailand Elite Visa - For those looking for a long-term visa with VIP benefits.
+https://thailand-elite.com/
+
+3. Local News and Forums
+Stay up-to-date with local news and connect with the expat community.
+
+ASEAN NOW (formerly ThaiVisa) - The largest and most popular English-language forum in Thailand.
+https://www.aseannow.com/
+
+Chiang Mai CityNews - English language news and events for Chiang Mai.
+https://www.chiangmaicitylife.com/
+
+The Thaiger - National and local news in English, with a section for Chiang Mai.
+https://thethaiger.com/news/chiang-mai
+
+Bangkok Post - A national newspaper with coverage of news relevant to Northern Thailand.
+https://www.bangkokpost.com/
+
+Khaosod English - Another popular national news source in English.
+https://www.khaosodenglish.com/
+
+Reddit - r/Thailand - A subreddit with frequent discussions about living in Thailand.
+https://www.reddit.com/r/Thailand/
+
+Reddit - r/ChiangMai - A subreddit specifically for the Chiang Mai community.
+https://www.reddit.com/r/ChiangMai/
+
+Chiang Mai Expats Facebook Group - A large and active Facebook group for expats in Chiang Mai.
+https://www.facebook.com/groups/chiangmaiexpats/
+
+InterNations Chiang Mai - A community for expats to connect and attend events.
+https://www.internations.org/chiang-mai-expats
+
+2017 Chiang Mai Resource Guide
+https://docs.google.com/document/u/1/d/e/2PACX-1vTSdHkJ0u3fgGEi65dk64zb6t82pQLhi3yJ29Vzjab50b1wdNTKEgQx00XkpHPv2zfGvWTOMy1h5cf-/pub?pli=1
+
+
+
+
+
+
+
+
+
+
+4. Weather and Air Quality
+Check the current weather conditions and important air quality information.
+
+AQICN - Chiang Mai Air Quality - Real-time Air Quality Index (AQI) for Chiang Mai.
+https://aqicn.org/city/chiang-mai/
+
+IQAir AirVisual - Another popular source for real-time and forecast air quality.
+https://www.iqair.com/thailand/chiang-mai
+
+Thai Meteorological Department - Official weather forecasts from the Thai government.
+https://www.tmd.go.th/en/
+
+The Weather Channel - Chiang Mai - Detailed weather forecasts, including hourly and 10-day predictions.
+https://weather.com/weather/today/l/THXX0004:1:TH
+
+AccuWeather - Chiang Mai - Another reliable source for weather forecasts.
+https://www.accuweather.com/en/th/chiang-mai/317505/weather-forecast/317505
+
+Windy.com - Detailed wind, rain, and weather map.
+https://www.windy.com/18.788/98.985
+
+Rainviewer - Live weather radar map for tracking rain.
+https://www.rainviewer.com/weather-radar-map-live.html
+
+Air4Thai - Air quality information from the Pollution Control Department of Thailand.
+http://air4thai.pcd.go.th/webV2/
+
+The World Air Quality Project - A non-profit project with real-time air quality information.
+https://waqi.info/
+
+Plume Labs Air Report - Air quality forecasts and data.
+https://air.plumelabs.com/en/live/chiang-mai
+
+5. Places to See and Visit
+Discover the top attractions and destinations in and around Chiang Mai.
+
+TripAdvisor - Things to Do in Chiang Mai - A comprehensive list of attractions and activities with user reviews.
+https://www.tripadvisor.com/Attractions-g293917-Activities-Chiang_Mai.html
+
+Lonely Planet - Chiang Mai - Travel guide with recommendations on what to see and do.
+https://www.lonelyplanet.com/thailand/chiang-mai-province/chiang-mai
+
+Culture Trip - Top Things to Do in Chiang Mai - A curated list of unique experiences.
+https://theculturetrip.com/asia/thailand/articles/the-top-10-things-to-do-and-see-in-chiang-mai/
+
+Doi Suthep-Pui National Park - Information about one of the most famous national parks in the area.
+https://www.thainationalparks.com/doi-suthep-pui-national-park
+
+Elephant Nature Park - A well-known elephant rescue and rehabilitation center.
+https://www.elephantnaturepark.org/
+
+Chiang Mai Night Safari - A nocturnal zoo and popular attraction.
+https://www.chiangmainightsafari.com/
+
+Royal Park Rajapruek - A beautiful botanical garden and exhibition center.
+https://www.royalparkrajapruek.org/
+
+Doi Inthanon National Park - Home to the highest peak in Thailand.
+https://www.thainationalparks.com/doi-inthanon-national-park
+
+Bo Sang Umbrella & Sankampaeng Handicrafts - Famous for its handmade umbrellas and local crafts.
+https://www.tourismthailand.org/Attraction/bo-sang-umbrella-sankampaeng-handicrafts
+
+Grand Canyon Water Park - A fun water park built in an old quarry.
+https://grandcanyonwaterpark.com/
+
+6. Temples (Wats)
+Explore the stunning and historically significant temples of Chiang Mai.
+
+10 Must-See Temples in Chiang Mai - A guide to the most famous temples in the city.
+https://www.hotels.com/go/thailand/must-see-temples-chiang-mai
+
+Wat Phra That Doi Suthep - The iconic temple on the mountain overlooking Chiang Mai.
+https://www.viator.com/Chiang-Mai-attractions/Wat-Phra-That-Doi-Suthep/d5339-a1157
+
+Wat Chedi Luang - A majestic temple in the heart of the Old City with a large, ruined chedi.
+https://www.viator.com/Chiang-Mai-attractions/Wat-Chedi-Luang/d5339-a19369
+
+Wat Phra Singh - One of the most important temples in Chiang Mai, located within the Old City walls.
+https://www.viator.com/Chiang-Mai-attractions/Wat-Phra-Singh/d5339-a19371
+
+Wat Umong (Tunnel Temple) - A unique temple set in a forest with a system of tunnels.
+https://www.atlasobscura.com/places/wat-umong
+
+Wat Suan Dok - Known for its large golden chedi and white mausoleums containing the ashes of Chiang Mai's former royal family.
+https://www.renown-travel.com/temples/watsuandok.html
+
+Wat Chiang Man - The oldest temple in Chiang Mai, built by the city's founder.
+https://www.renown-travel.com/temples/watchiangman.html
+
+Wat Sri Suphan (Silver Temple) - An impressive temple covered in silver, located on Wua Lai Road.
+https://www.renown-travel.com/temples/watsrisuphan.html
+
+Wat Pha Lat - A peaceful, jungle-hidden temple on the way up to Doi Suthep.
+https://www.thethailandlife.com/wat-pha-lat
+
+Wat Lok Moli - A beautiful temple with an impressive brick chedi and intricate wood carvings.
+https://www.renown-travel.com/temples/watlokmoli.html
+
+7. Museums and Cultural Attractions
+Discover the rich history and art of the Lanna Kingdom and Northern Thailand.
+
+Chiang Mai National Museum - The main museum for the history and culture of the region.
+https://www.tourismthailand.org/Attraction/chiang-mai-national-museum
+
+Lanna Folklife Museum - Showcases the life, history and culture of the Lanna people.
+https://www.tourismthailand.org/Attraction/lanna-folklife-museum
+
+Chiang Mai City Arts & Cultural Centre - Located in a historic building, this museum provides an insight into the city's past.
+https://www.tourismthailand.org/Attraction/chiang-mai-city-arts-cultural-centre
+
+Art in Paradise Chiang Mai - A fun, interactive 3D art museum.
+https://www.artinparadise.co.th/
+
+MAIIAM Contemporary Art Museum - A modern museum showcasing contemporary art from Thailand and beyond.
+https://www.maiiam.com/
+
+Museum of World Insects and Natural Wonders - A quirky museum with a vast collection of insects and fossils.
+https://www.tripadvisor.com/Attraction_Review-g293917-d1154881-Reviews-Museum_of_World_Insects_and_Natural_Wonders-Chiang_Mai.html
+
+Three Kings Monument - An important landmark in the center of the Old City.
+https://www.tourismthailand.org/Attraction/three-kings-monument
+
+Lanna Traditional House Museum - An open-air museum featuring traditional Lanna-style houses.
+https://www.renown-travel.com/museums/lannatraditionalhouse.html
+
+Dara Pirom Palace Museum - A former palace of a Lanna princess, now a museum.
+https://www.tourismthailand.org/Attraction/dara-pirom-palace-museum
+
+The Highland People Discovery Museum - Learn about the various hill tribes of Northern Thailand.
+https://www.tourismthailand.org/Attraction/the-highland-people-discovery-museum
+
+8. Local Events Listings
+Find out what's happening in Chiang Mai, from festivals to local gatherings.
+
+Steve's "Tiny List" - A curated email newsletter of events and happenings in Chiang Mai (no public website, requires subscription).
+
+Chiang Mai CityLife Events - A comprehensive listing of events from CityLife magazine.
+https://www.chiangmaicitylife.com/citylife-events/
+
+What's Happening in Chiang Mai (Facebook Group) - A public Facebook group for sharing and finding local events.
+https://www.facebook.com/groups/whatshappeninginchiangmai/
+
+Eventbrite Chiang Mai - Lists a variety of events, workshops, and classes.
+https://www.eventbrite.com/d/thailand--chiang-mai/events/
+
+Meetup Chiang Mai - Find local groups and events based on your interests.
+https://www.meetup.com/cities/th/chiang_mai/
+
+AllEvents.in Chiang Mai - A platform that aggregates events from various sources.
+https://allevents.in/chiang%20mai
+
+Thaiger Events - The events section of The Thaiger news website.
+https://thethaiger.com/events
+
+Songkran Festival - Information about the famous Thai New Year water festival.
+https://www.tourismthailand.org/Attraction/songkran-festival-in-chiang-mai
+
+Loy Krathong & Yi Peng Festivals - Information about the stunning lantern festivals.
+https://www.chiangmailocator.com/chiang-mai-festivals/loy-krathong-and-yee-peng-103
+
+Chiang Mai Flower Festival - Information about the beautiful annual flower festival held in February.
+https://www.chiangmailocator.com/chiang-mai-festivals/chiang-mai-flower-festival-102
+
+9. Popular YouTube Channels
+See Chiang Mai through the eyes of local YouTubers and expats.
+
+Good Life in Chiang Mai Thailand - A channel showcasing expat life and various places of interest around Chiang Mai.
+https://www.youtube.com/c/GoodLifeinChiangMaiThailand
+
+Retired Working For You - A popular channel about retiring and living in Thailand, with lots of content on Chiang Mai.
+https://www.youtube.com/c/RetiredWorkingForYou
+
+Paddy Doyle - An Irish expat sharing his experiences of living in Thailand.
+https://www.youtube.com/c/PaddyDoyle
+
+8 Miles from Home - A family vlog that was based in Chiang Mai for a long time.
+https://www.youtube.com/user/8milesfromhome
+
+The Holidaze - A travel channel that has featured Chiang Mai extensively.
+https://www.youtube.com/c/TheHolidaze
+
+Brett Dev - A digital nomad's perspective on living in Chiang Mai.
+https://www.youtube.com/c/BrettDev
+
+CB Media - While not solely focused on Chiang Mai, this channel often features the city and car culture in Thailand.
+https://www.youtube.com/c/CBMedia404
+
+Mark Wiens - A famous food vlogger who has covered Chiang Mai's street food and restaurants in depth.
+https://www.youtube.com/user/migrationology
+
+The Food Ranger - Another popular food vlogger with excellent videos on Northern Thai cuisine.
+https://www.youtube.com/c/TheFoodRanger
+
+I Love Thailand - A channel showcasing the beauty of Thailand, including Chiang Mai.
+https://www.youtube.com/c/ILoveThailand
+
+10. Places to Shop
+A guide to shopping in Chiang Mai, from modern malls to unique local shops.
+
+CMHY.city - An online directory of shops, services, and businesses in Chiang Mai.
+https://www.cmhy.city/
+
+10 Best Places to Go Shopping in Chiang Mai - A guide from Hotels.com with a good overview of shopping options.
+https://uk.hotels.com/go/thailand/best-shopping-chiang-mai
+
+Chiang Mai Shopping Guide - A comprehensive guide from a local blog.
+https://chiangmaibest.com/shopping/
+
+One Nimman - A modern, open-air shopping and lifestyle complex in the trendy Nimmanhaemin area.
+https://www.onenimman.com/
+
+Think Park - A quirky, artistic shopping and dining area opposite Maya Mall.
+https://www.facebook.com/ThinkParkChiangMai/
+
+--Kad Suan Kaew - One of the oldest shopping malls in Chiang Mai, with a unique charm.
+--http://www.kadsunkaew.co.th/
+
+Sankampaeng Road (Handicraft Highway) - A long road lined with shops selling local handicrafts, silk, and furniture.
+https://www.renown-travel.com/shopping/sankampaengroad.html
+
+Baan Tawai - A village famous for its wood carvings and furniture.
+https://www.baan-tawai.com/
+
+Chiang Mai Celadon - Famous for its beautiful, traditional celadon pottery.
+https://www.chiangmaiceladon.com/
+
+Herb Basics - A local brand selling natural spa products and essential oils.
+https://www.herbbasics.com/
+
+11. Shopping Malls
+Modern, air-conditioned shopping malls for all your needs.
+
+Central Festival Chiang Mai - The largest and most modern shopping mall in Chiang Mai.
+https://www.central.co.th/en/store/central-chiangmai
+
+Central Plaza Chiang Mai Airport - A large mall located conveniently near the airport.
+https://www.central.co.th/en/store/central-chiangmai-airport
+
+MAYA Lifestyle Shopping Center - A trendy mall in the Nimman area with a cinema, rooftop bars, and lots of shops.
+https://www.mayachiangmai.com/
+
+Promenada Resort Mall Chiang Mai - A resort-style mall with an open-air design and a large cinema.
+https://www.promenadachiangmai.com/
+
+Central Outlet Chiang Mai - An outlet mall with discounts on brand-name clothing and goods.
+https://www.centralvillagebangkok.com/en/shopping-fun (Note: Link is for the Bangkok location, but is the same company.)
+
+Rimping Supermarket - A high-end supermarket chain with several branches, popular with expats.
+https://www.rimping.com/
+
+Tops Market - Another popular supermarket chain found in most Central malls.
+https://www.tops.co.th/
+
+Big C Supercenter - A hypermarket with groceries, clothing, and household goods.
+https://www.bigc.co.th/
+
+Lotus's (formerly Tesco Lotus) - Another major hypermarket chain.
+https://www.lotuss.com/
+
+Makro - A wholesale cash-and-carry store, great for buying in bulk.
+https://www.siammakro.co.th/
+
+12. Markets
+Experience the local culture and find great bargains at Chiang Mai's famous markets.
+
+The Best Weekend Markets in Chiang Mai - A guide to the city's best markets from Time Out.
+https://www.timeout.com/chiang-mai/travel/the-best-weekend-markets-in-chiang-mai
+
+Sunday Walking Street Market (Tha Pae) - The most famous market in Chiang Mai, held every Sunday evening.
+https://www.chiangmailocator.com/chiang-mai-markets-and-shopping/sunday-walking-street-177
+
+Saturday Walking Street Market (Wua Lai) - A lively market on Wua Lai Road, known for its silver goods.
+https://www.chiangmailocator.com/chiang-mai-markets-and-shopping/saturday-walking-street-178
+
+Chiang Mai Night Bazaar - A large, nightly market catering mostly to tourists, but still a fun experience.
+https://www.chiangmailocator.com/chiang-mai-markets-and-shopping/night-bazaar-176
+
+Warorot Market (Kad Luang) - A large, bustling day market that sells everything from food to clothing.
+https://www.chiangmailocator.com/chiang-mai-markets-and-shopping/warorot-market-180
+
+Muang Mai Market - The city's main wholesale market for fresh fruit and vegetables.
+https://www.chiangmailocator.com/chiang-mai-markets-and-shopping/muang-mai-market-181
+
+Anusarn Market - Part of the Night Bazaar, with lots of food stalls and a cabaret show.
+https://www.chiangmailocator.com/chiang-mai-markets-and-shopping/anusarn-market-278
+
+Ploen Ruedee Night Market - A trendy night market with a focus on international food and live music.
+https://www.facebook.com/Ploenrudeenightmarket/
+
+Chang Puak Gate Night Market - A famous spot for delicious and cheap street food.
+https://www.eatingthaifood.com/chang-phueak-gate-chiang-mai-food-stalls/
+
+Jing Jai Market (JJ Market) - A popular morning market with organic produce, handicrafts, and a great atmosphere.
+https://www.facebook.com/jjmarketchiangmai/
+
+13. Banking
+Information on opening a bank account and managing your finances as an expat.
+
+Bangkok Bank - One of the largest banks in Thailand, with an English website and services for foreigners.
+https://www.bangkokbank.com/en
+
+Kasikorn Bank (K-Bank) - Another popular choice for expats, known for its good mobile banking app.
+https://www.kasikornbank.com/en
+
+Siam Commercial Bank (SCB) - A major Thai bank with a long history.
+https://www.scb.co.th/en/personal-banking.html
+
+Krungsri (Bank of Ayudhya) - A large bank with a user-friendly app and expat services.
+https://www.krungsri.com/en/personal
+
+TMBThanachart Bank (TTB) - A newly merged bank offering a range of services.
+https://www.ttbbank.com/en
+
+Opening a Bank Account in Thailand as a Foreigner - A guide from a popular expat blog.
+https://thethaiger.com/guides/expat-life/opening-a-bank-account-in-thailand-as-a-foreigner
+
+Wise (formerly TransferWise) - A popular and cheap way to transfer money internationally.
+https://wise.com/
+
+Revolut - Another digital banking alternative for international money transfers and spending.
+https://www.revolut.com/
+
+XE.com - Check live currency exchange rates.
+https://www.xe.com/
+
+Lloyds Bank International - Thailand Country Guide - Information for UK expats on banking in Thailand.
+https://www.lloydsbank.com/international/country-guides/thailand.html
+
+14. Internet Providers
+Get connected with home internet and mobile data.
+
+AIS Fibre - A leading provider of high-speed fibre optic internet.
+https://www.ais.th/fibre/en/
+
+True Online - Another major player in the home internet market.
+https://trueonline.truecorp.co.th/
+
+3BB - A popular internet service provider with good coverage.
+https://www.3bb.co.th/
+
+TOT - A state-owned telecommunications company.
+https://www.tot.co.th/
+
+AIS (Mobile) - The largest mobile operator in Thailand with excellent coverage.
+https://www.ais.co.th/en/
+
+DTAC (Mobile) - Another major mobile operator with competitive prices.
+https://www.dtac.co.th/en/
+
+TrueMove H (Mobile) - Part of the True corporation, offering mobile services.
+https://www.truemoveh.com/
+
+Choosing an Internet Provider in Thailand - A helpful guide for expats.
+https://thethaiger.com/guides/expat-life/choosing-an-internet-provider-in-thailand
+
+Prepaid Data SIM Card Wiki - Thailand - A detailed comparison of mobile operators.
+https://prepaid-data-sim-card.fandom.com/wiki/Thailand
+
+Speedtest by Ookla - Test your internet speed.
+https://www.speedtest.net/
+
+15. Local Public Transport
+Getting around Chiang Mai using public transport options.
+
+Chiang Mai Public Transport Guide - An overview of the different ways to get around the city.
+https://www.getyourguide.com/explorer/chiang-mai-ttd271/how-to-get-around-in-chiang-mai/
+
+RTC Chiang Mai City Bus - Information on the city's modern, air-conditioned bus service.
+https://www.facebook.com/rtccmcitybus/
+
+Hop and Go Bus - A hop-on-hop-off bus service for tourists and residents.
+https://hopandgo.co/
+
+Grab - The most popular ride-hailing app in Southeast Asia, essential for getting around.
+https://www.grab.com/th/en/
+
+Songthaews (Red Trucks) - Information on how to use the iconic red trucks that serve as shared taxis.
+https://www.chiangmailocator.com/chiang-mai-transport/songthaew-and-tuk-tuk-216
+
+Tuk-Tuks - The famous three-wheeled taxis, best for short distances.
+https://www.chiangmailocator.com/chiang-mai-transport/songthaew-and-tuk-tuk-216
+
+ViaBus App - A useful app for tracking public buses in real-time.
+https://www.viabus.co/
+
+Moovit App - A public transport journey planner.
+https://moovitapp.com/
+
+Chiang Mai Bus Station (Arcade) - Information on the main bus station for inter-provincial travel.
+https://www.tourismthailand.org/Attraction/chiang-mai-bus-terminal-1-chang-phueak
+
+State Railway of Thailand - For train travel to and from Chiang Mai.
+https://www.dticket.railway.co.th/
+
+16. Hiring Cars and Motorbikes
+For those who prefer to drive themselves, here are some rental options.
+
+Mango Bikes Rent - A popular and well-regarded motorbike rental shop in Chiang Mai.
+https://mangobikesrent.com/
+
+Mr. Mechanic - Another long-standing and reputable motorbike rental shop.
+https://www.facebook.com/Mr.MechanicChiangMai/
+
+Budget Car and Truck Rental - A well-known international car rental company.
+https://www.budget.co.th/
+
+Hertz Car Rental - Another international car rental option.
+https://www.hertzthailand.com/
+
+Thai Rent A Car - A popular local car rental company.
+https://www.thairentacar.com/
+
+Avis Car Rental - A global car rental brand with a presence in Chiang Mai.
+https://www.avisthailand.com/
+
+Drive Car Rental - A reliable local car rental company.
+https://www.drivecarrental.com/
+
+Kayak - Car Rental Chiang Mai - A comparison site to find the best deals on car rentals.
+https://www.kayak.com/Chiang-Mai-Car-Rentals.20147.cars.ksp
+
+Booking.com - Car Hire Chiang Mai - Another popular booking platform for car rentals.
+https://www.booking.com/cars/city/th/chiang-mai.en-gb.html
+
+Renting a Motorbike in Chiang Mai - A Guide - A helpful article with tips for safely renting a motorbike.
+https://www.thebrotripper.com/renting-a-motorbike-in-chiang-mai/
+
+17. Health Providers (Hospitals)
+A list of reputable hospitals in Chiang Mai with services for expats.
+
+Bangkok Hospital Chiang Mai - A modern, JCI-accredited hospital popular with expats.
+https://www.bangkokhospital-chiangmai.com/en/
+
+Chiang Mai Ram Hospital - A well-regarded private hospital with a dedicated international desk.
+http://www.chiangmairam.com/
+
+Sriphat Medical Center (CMU) - The private wing of the university hospital, with many specialist doctors.
+https://sriphat.med.cmu.ac.th/
+
+McCormick Hospital - A long-standing hospital with a good reputation and reasonable prices.
+http://www.mccormickhospital.com/
+
+Lanna Hospital - Another private hospital option in Chiang Mai.
+https://www.lanna-hospital.com/
+
+Maharaj Nakorn Chiang Mai Hospital (Suan Dok) - The main public and teaching hospital, excellent for specialist care.
+https://www.med.cmu.ac.th/hospital/
+
+An Expat Guide to Healthcare in Chiang Mai - A detailed guide from an insurance broker.
+https://i-brokers.com/news/expat-guide-healthcare-insurance-chiang-mai/
+
+Bumrungrad International Hospital (Bangkok) - While in Bangkok, this is one of the most famous hospitals in Asia.
+https://www.bumrungrad.com/
+
+Samitivej Hospital (Bangkok) - Another leading hospital in Bangkok.
+https://www.samitivejhospitals.com/
+
+Expat Health Insurance in Thailand - A guide to choosing the right health insurance.
+https://thethaiger.com/guides/expat-life/expat-health-insurance-in-thailand
+
+18. Annual Health Checks
+Many hospitals offer comprehensive and affordable annual health check-up packages.
+
+Bangkok Health Service - Health Check Up in Chiang Mai - A service that compiles and compares health check-up packages.
+https://bangkokhealthservice.com/health-check-up-in-thailand/chiang-mai/
+
+Bangkok Hospital Chiang Mai - Health Checkup Programs - A list of the health check-up packages available at this hospital.
+https://www.bangkokhospital-chiangmai.com/en/packages-and-promotions/health-check-up-programs
+
+Chiang Mai Ram Hospital - Check-up Programs - Details of the health screening packages at Chiang Mai Ram.
+http://www.chiangmairam.com/read_news.php?id=30
+
+McCormick Hospital - Health Check-up - Information on the check-up programs at McCormick Hospital.
+http://www.mccormickhospital.com/main/images/content/checkup/checkup-65.pdf
+
+Sriphat Medical Center - Check-up Packages - The health check-up options available at Sriphat.
+https://sriphat.med.cmu.ac.th/check-up-package/
+
+Lanna Hospital - Check-up Programs - A list of the check-up packages offered at Lanna Hospital.
+https://www.lanna-hospital.com/checkup.php
+
+The Importance of Annual Health Checks for Expats - An article explaining the benefits of regular check-ups.
+https://www.pacificprime.co.th/blog/the-importance-of-annual-health-checks-for-expats-in-thailand/
+
+What to Expect in a Thai Health Check-up - A blog post detailing the process.
+https://retirepedia.asia/health-check-up-in-thailand/
+
+MedEx - Medical Examinations in Thailand - A service that helps arrange medical check-ups.
+https://www.medex.co.th/
+
+Healthy Living in Thailand - General health and wellness tips for expats.
+https://thethaiger.com/guides/health
+
+19. Dentists
+Find a reputable dentist for everything from a check-up to major dental work.
+
+Dental 4 You Clinic - A popular and modern dental clinic on Thapae Road.
+https://www.chiangmaidental4you.com/
+
+Grace Dental Clinic - A well-regarded clinic with several branches in Chiang Mai.
+https://www.gracedentalclinic.com/
+
+Kitcha Dental Clinic - A long-standing clinic with a good reputation.
+http://www.kitchaclinic.com/
+
+Dental World Chiang Mai - Located in the old city, offering a range of services.
+https://www.dentalworldchiangmai.com/
+
+Chiang Mai International Dental Center (CIDC) - A large, modern dental center.
+https://www.chiangmaidentist.com/
+
+Empress Dental Clinic - A clinic known for its cosmetic dentistry and implant services.
+https://www.empressdental.com/
+
+The International Dental Center - Bumrungrad (Bangkok) - A world-class dental center in Bangkok.
+https://www.bumrungrad.com/en/centers/dental-center
+
+Top 10 Dental Clinics in Chiang Mai - A list from a popular medical tourism website.
+https://www.medicaldepartures.com/article/top-10-dental-clinics-chiang-mai
+
+Expat Dens - Chiang Mai Dentists - A directory of dentists recommended by expats.
+https://www.expatden.com/thailand/chiang-mai-dentists/
+
+What to Expect at a Thai Dentist - A blog post about the experience of going to a dentist in Thailand.
+https://tielandtothailand.com/going-to-the-dentist-in-thailand-is-awesome/
+
+20. Rental Listing Sites (Condos & Houses)
+Find your next home with these popular property rental websites.
+
+Perfect Homes - A real estate agency with a large selection of condos and houses for rent.
+https://perfecthomes.co.th/
+
+DDProperty - One of Thailand's leading property portals.
+https://www.ddproperty.com/en/condo-for-rent/in-chiang-mai-th50
+
+FazWaz - A modern property website with a good user interface.
+https://www.fazwaz.com/property-for-rent/chiang-mai
+
+Hipflat - Another popular property search engine in Thailand.
+https://www.hipflat.co.th/en/market/chiang-mai-arvnb
+
+Properstar (formerly ListGlobally) - An international property portal with listings in Chiang Mai.
+https://www.properstar.co.uk/thailand/chiang-mai-l1/rent
+
+Chiang Mai Properties - A local real estate agency with a focus on houses.
+https://www.chiangmaiproperties.co.th/
+
+Facebook Marketplace - A surprising number of private rentals are listed on Facebook Marketplace.
+https://www.facebook.com/marketplace/
+
+Chiang Mai Real Estate (Facebook Group) - A Facebook group for buying, selling, and renting property.
+https://www.facebook.com/groups/ChiangMaiRealEstate/
+
+House for rent in Chiang Mai (Facebook Group) - Another active Facebook group for rentals.
+https://www.facebook.com/groups/441393169359089/
+
+Thailand-Property.com - A national property portal with a section for Chiang Mai.
+https://www.thailand-property.com/
+
+21. Sports Clubs and Activities
+Stay active and meet new people through sports and fitness activities.
+
+Chiang Mai Hash House Harriers - A "drinking club with a running problem" that meets weekly.
+https://www.cmh3.com/
+
+Chiang Mai Cricket Club - For those interested in playing or watching cricket.
+https://www.chiangmaicricket.com/
+
+Lanna Rugby Club - The local rugby club in Chiang Mai.
+https://www.facebook.com/LannaRugbyClub/
+
+Chiang Mai Ultimate - The local Ultimate Frisbee community.
+https://www.facebook.com/groups/ChiangMaiUltimate/
+
+Chiang Mai Climbing Adventures - For rock climbing and caving enthusiasts.
+https://www.thailandclimbing.com/
+
+CNX Insure - Fitness Centre Directory - A list of gyms and fitness centers in Chiang Mai.
+https://cnxinsure.com/directories/fitness-centre-chiang-mai/
+
+Yoga in Chiang Mai - A guide to the best yoga studios in the city.
+https://www.thebrokebackpacker.com/yoga-in-chiang-mai/
+
+Chiang Mai FC - The local professional football team.
+http://www.cmfcsoccer.com/
+
+StarDome Golf Club - A popular golf course located close to the city center.
+https://www.stardomegolfclub.com/
+
+Mae Jo Golf Club & Resort - Another excellent golf course just outside the city.
+https://www.maejogolfclub.com/
+
+###
