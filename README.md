@@ -30,8 +30,8 @@ https://pagespeed.web.dev/analysis/https-ihibbert-github-io-cm-resource-test/4cd
 
 todo: 10pin bowling, crazy golf, dance, yoga, Line, Learn Thai language, ...
 
+## Aims:
 
-Aims:
 * Make a list of websites that I, myself, would find useful in the future, of relevant Chiang Mai information, gathered from a range of [AI and conventional] sources. Hopefully, people in similar circumstances will also find this useful and engaging, and a reason to return to the page. I also learn much more about Chiang Mai along the way. 
 * Create a web page that will mention Chiang Mai over, over, over and over again and link to other useful websites so search engines will appreciate this work and promote it highly in their results, attracting more attention to the hosting domain. Include a little sprinkle of SEO. A complete web page can also be the seed or links in the chain for future AI and search engines - if a website contains no useful relevant or indexable information how can people find it or engage with it?
 * Keep the sponsors of the hosting domain happy by displaying them prominently amongst helpful and useful information about Chiang Mai. 
@@ -42,11 +42,13 @@ Aims:
 Results:
 * Getting there 555. Not ready now (several more links to check and merge), but hopefully next week will have a simple html file with decent content and syntax (but no CSS styling, hopefully using site theme) for inclusion in CEC site. 
 
-Disclaimer:
+## Disclaimer:
+
 The Chiang Mai Expats Club provides this resource guide as a helpful starting point for our community’s exploration and research. Please note that we do not control, endorse, or guarantee the content, accuracy, or availability of any external websites linked here. Businesses and services may change, close, or update without notice, and information on these sites may become outdated or inaccurate.
 Inclusion of any link or resource is not an endorsement or recommendation, but simply a starting point for your own investigation. The dynamic nature of the web means that content evolves constantly, and despite our best efforts, we cannot ensure all information remains current or correct. Maintaining and regularly updating numerous links requires significant resources, and while we strive to keep this guide as accurate as possible, we rely on community feedback to help us improve.
 If you have suggestions, corrections, or updates for this guide, please contact us, we welcome your feedback and collaboration.
 
+## Which Embassies to include? 
 
 I am trying to provide a list of websites that provide the contact information for Expats in Chiang Mai, Thailand. What are the top 12 countries ordered by approximate number of residents in Chiang Mai, list the countries and estimated numbers of Expats. 
 
@@ -77,7 +79,7 @@ Rank, Country, Estimated Number of Expats
 12. India	500–1,000
 
 
-
+## Ask AI to critique the list
 
 The attached document serves as a comprehensive and up-to-date resource guide for expats living in Chiang Mai, offering a wide array of links covering essential aspects of expat life. Its strengths lie in the breadth of topics addressed, including visas, housing, healthcare, community groups, news, daily life, and local attractions. The guide is particularly valuable for newcomers, as it consolidates practical information and reputable sources, making it easier to navigate the complexities of settling in a new city. The inclusion of both official resources (such as government and embassy sites) and community-driven platforms (like forums and Meetup groups) ensures that users can access both authoritative information and peer support.
 
@@ -87,9 +89,35 @@ However, there are some limitations to the information provided. The guide relie
 
 Another potential drawback is the lack of in-depth, comparative analysis within the guide itself. While it points to many resources, it does not always offer context or reviews to help users evaluate the quality of services, such as which hospitals are best for certain treatments or which neighborhoods are most suitable for different lifestyles. The disclaimer at the end also makes clear that the guide does not endorse or guarantee any of the listed resources, placing the responsibility on users to verify details independently. This means expats must still exercise caution and conduct their own research before making important decisions based on the guide’s recommendations.
 
+### How to improve and update? 
 
+My conclusion after thinking about a quick win to improve content and engagement with the website (with newbies and people who've been here forever): have a question of the week and post the results. 
+The results would indirectly gradually build a FAQ section and Guide to Chiang Mai.
 
+#### Examples:
 
+Where is your favourite place to buy Thai street food?
+
+Where is your favourite romantic place in Chiang Mai and why? (Not sure all the answers will be suitable for the website)
+
+What is your favourite place to do a weekly food shop and why?
+
+Where is your favourite place to participate in sport?
+
+Where is your favourite hidden treasure in Chiang Mai and what makes it so special?
+
+Which websites do you use to keep informed about (2q: rental and for purchase) properties in Chiang Mai?
+
+What resources (2q: online and in person) do/did you use to learn the Thai language?
+
+What is your favourite Thai temple and why?
+
+What question would you like to see asked here? (Get them to do part of the work for us)
+
+To keep engagement up (people will only do stuff if there is something in it for them) a small prize from a sponsor (name and link prominent, maybe "Question of the week sponsored by XXX") (like bottle of wine, cinema tickets etc) to answer picked at random. Will need to provide email and be willing to pose for a photo collecting prize to be eligible, else can just provide anonymous information.
+
+Initially get the ball rolling via newsletter but it only links to website, so they must visit and hopefully build momentum...
+Need to generate a new Google form question each week and get information if sponsors would be willing or does the club fund the first couple of prizes to see if it is worthwhile?
 
 
 
