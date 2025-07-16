@@ -1676,6 +1676,8 @@ document.getElementById('clearBtn').addEventListener('click', function() {
   sections.forEach(section => {
     section.style.display = '';
   });
+  const resultDiv = document.getElementById('quirkyResult');
+  resultDiv.innerHTML = '';​
 });
 	
 document.getElementById('quirkyBtn').addEventListener('click', function() {
