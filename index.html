@@ -1660,21 +1660,7 @@ If you have suggestions, corrections, or updates for this guide, please
 </div><!-- end of container --> 
 	
 <script>
-
-function clearResult() {
-  document.getElementById('searchInput').value = '';
-  const sections = document.querySelectorAll('.section');
-  sections.forEach(section => {
-    section.style.display = '';
-  });
-  const sectionItems = document.querySelectorAll('.section-item');
-  sectionItems.forEach(sectionItem => {
-    sectionItem.style.display = '';
-  });
-  //document.getElementById('quirkyResult').innerHTML = '';​​
-  document.getElementById('quirkyResult').replaceChildren();
-}
-
+	
 document.getElementById('searchBtn').addEventListener('click', function() {
   const query = document.getElementById('searchInput').value.toLowerCase();
   const sections = document.querySelectorAll('.section');
@@ -1693,12 +1679,21 @@ document.getElementById('searchBtn').addEventListener('click', function() {
 });
 
 document.getElementById('clearBtn').addEventListener('click', function() {
-  clearResult;
+  document.getElementById('searchInput').value = '';
+  const sections = document.querySelectorAll('.section');
+  sections.forEach(section => {
+    section.style.display = '';
+  });
+  const sectionItems = document.querySelectorAll('.section-item');
+  sectionItems.forEach(sectionItem => {
+    sectionItem.style.display = '';
+  });
+  //document.getElementById('quirkyResult').innerHTML = '';​​
+  document.getElementById('quirkyResult').replaceChildren();
 });
 	
 document.getElementById('quirkyBtn').addEventListener('click', function() {
-  clearResult;
-  //document.getElementById('searchInput').value = '';
+  document.getElementById('searchInput').value = '';
   const quirkyItems = Array.from(document.querySelectorAll('.section-item'));
   if (quirkyItems.length === 0) {
     document.getElementById('quirkyResult').innerHTML = '<em>No quirky sites found.</em>';
