@@ -1663,22 +1663,30 @@ If you have suggestions, corrections, or updates for this guide, please
 	
 document.getElementById('searchBtn').addEventListener('click', function() {
   const query = document.getElementById('searchInput').value.toLowerCase();
-  const sections = document.querySelectorAll('.section-item');
+  const sections = document.querySelectorAll('.section');
   sections.forEach(section => {
+    section.style.display = 'none';
+  });
+  const sectionItems = document.querySelectorAll('.section-item');
+  sectionItems.forEach(sectionItem => {
     // Check if the section contains the keyword
-    if (section.textContent.toLowerCase().includes(query)) {
-      section.style.display = '';
+    if (sectionItem.textContent.toLowerCase().includes(query)) {
+      sectionItem.style.display = '';
     } else {
-      section.style.display = 'none';
+      sectionItem.style.display = 'none';
     }
   });
 });
 
 document.getElementById('clearBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
-  const sections = document.querySelectorAll('.section-item');
+  const sections = document.querySelectorAll('.section');
   sections.forEach(section => {
     section.style.display = '';
+  });
+  const sectionItems = document.querySelectorAll('.section-item');
+  sectionItems.forEach(sectionItem => {
+    sectionItem.style.display = '';
   });
   //document.getElementById('quirkyResult').innerHTML = '';​​
   document.getElementById('quirkyResult').replaceChildren();
@@ -1687,7 +1695,7 @@ document.getElementById('clearBtn').addEventListener('click', function() {
 document.getElementById('quirkyBtn').addEventListener('click', function() {
   const quirkyItems = Array.from(document.querySelectorAll('.section-item'));
   if (quirkyItems.length === 0) {
-    document.getElementById('random-quirky-result').innerHTML = '<em>No quirky sites found.</em>';
+    document.getElementById('quirkyResult').innerHTML = '<em>No quirky sites found.</em>';
     return;
   }
   // Choose a random quirky item
