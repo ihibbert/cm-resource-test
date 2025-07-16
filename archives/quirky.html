@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Chiang Mai Expats Resource Guide | Visas, Housing, Health, Community & More</title>
+
+
+
+
+
+<style>
+
+  body {
+
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+
+    background: #f9f9f9;
+
+    color: #222;
+
+    margin: 0;
+
+    padding: 0 0 2em 0;
+
+    line-height: 1.7;
+
+  }
+
+  main, .container {
+
+    max-width: 900px;
+
+    margin: 2em auto;
+
+    background: #fff;
+
+    padding: 2em 1.5em;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+
+  }
+
+  h1, h2, h3, h4 {
+
+    color: #2a4d69;
+
+    margin-top: 1.5em;
+
+    margin-bottom: 0.5em;
+
+    line-height: 1.2;
+
+  }
+
+  h1 {
+
+    font-size: 2.2em;
+
+    border-bottom: 2px solid #e0e0e0;
+
+    padding-bottom: 0.3em;
+
+  }
+
+  h2 {
+
+    font-size: 1.5em;
+
+    border-left: 4px;
+
+    padding-left: 0.5em;
+
+  }
+
+  h3, h4 {
+
+    font-size: 1.15em;
+
+    font-weight: 600;
+
+  }
+
+  p, li, div {
+
+    font-size: 1.05em;
+
+    margin-bottom: 0.7em;
+
+  }
+
+  a {
+
+    color: #1976d2;
+
+    text-decoration: none;
+
+    word-break: break-all;
+
+    transition: color 0.2s;
+
+  }
+
+  a:hover, a:focus {
+
+    color: #0d47a1;
+
+    text-decoration: underline;
+
+  }
+
+  ul, ol {
+
+    margin-left: 1.5em;
+
+    margin-bottom: 1em;
+
+  }
+
+  section {
+
+    margin-bottom: 2em;
+
+  }
+
+  /* Table of contents styling, if used */
+
+  nav ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 1em 0 2em 0;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 1em;
+
+  }
+
+  nav ul li {
+
+    background: #e3f2fd;
+
+    border-radius: 4px;
+
+    padding: 0.3em 0.8em;
+
+  }
+
+  .​sect {
+
+    background: #e3f2fd;
+
+    border-radius: 4px;
+
+    padding: 0.3em 0.8em;
+
+  }
+
+  nav ul li a {
+
+    color: #1565c0;
+
+    font-weight: 500;
+
+  }
+
+  /* Responsive for mobile */
+
+  @media (max-width: 600px) {
+
+    main, .container {
+
+      padding: 1em 0.5em;
+
+    }
+
+    h1 {
+
+      font-size: 1.4em;
+
+    }
+
+    h2 {
+
+      font-size: 1.1em;
+
+    }
+
+  }
+
+
+
+  .sect {
+
+    margin-bottom: 2em;
+
+    padding: 1em;
+
+    background: #f5faff;
+
+    border-radius: 6px;
+
+    border: 4px solid #4fc3f7;
+
+  }
+
+  
+
+  /* Style the search bar container for spacing */
+
+#searchBar {
+
+  display: flex;
+
+  gap: 10px;
+
+  align-items: center;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+/* Input textbox styling */
+
+#searchInput {
+
+  padding: 10px 16px;
+
+  border: 2px solid #6c63ff;   /* Accent color border */
+
+  border-radius: 6px;
+
+  font-size: 1em;
+
+  transition: border-color 0.2s, box-shadow 0.2s;
+
+  outline: none;
+
+  background: #f9f9ff;          /* Slightly tinted background */
+
+  box-shadow: 0 2px 6px rgba(108,99,255,0.07);
+
+}
+
+
+
+#searchInput:focus {
+
+  border-color: #3f37c9;        /* Stronger accent on focus */
+
+  box-shadow: 0 0 0 2px #b3b3ff;
+
+}
+
+
+
+/* Button styling (both search and clear) */
+
+#searchBtn,
+
+#clearBtn {
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  background: #6c63ff;          /* Accent color */
+
+  color: #fff;
+
+  font-size: 1em;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: background 0.2s, box-shadow 0.2s;
+
+  box-shadow: 0 2px 8px rgba(108,99,255,0.08);
+
+}
+
+
+
+#searchBtn:hover,
+
+#clearBtn:hover,
+
+#searchBtn:focus,
+
+#clearBtn:focus {
+
+  background: #3f37c9;          /* Darker on hover/focus */
+
+  box-shadow: 0 4px 12px rgba(63,55,201,0.15);
+
+}
+
+
+
+/* Optional: make the buttons stand out a bit more */
+
+#searchBtn {
+
+  background: linear-gradient(90deg, #6c63ff 60%, #8576ff 100%);
+
+}
+
+
+
+#clearBtn {
+
+  background: #fff;
+
+  color: #6c63ff;
+
+  border: 2px solid #6c63ff;
+
+}
+
+#clearBtn:hover,
+
+#clearBtn:focus {
+
+  background: #f3f0ff;
+
+  color: #3f37c9;
+
+  border-color: #3f37c9;
+
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+   
+
+</head>
+
+<body>
+
+
+
+
+
+<div class="container">
+
+	
+
+	
+
+<h1>Chiang Mai Expat's Online Resource Guide</h1>
+
+	
+
+ 
+  
+<br>
+
+	
+
+<form id="resourceForm">
+
+	
+
+  <div id="searchBar">
+
+    <input type="text" id="searchInput" placeholder="Search items...">
+
+    <button type="button" id="searchBtn">Search</button>
+
+    <button type="button" id="clearBtn">Clear</button>
+
+  </div>
+
+  
+
+  <hr>
+
+  
+
+<div class="section-item"><br><br><h3 class="sect" id="Introduction_to_Chiang_Mai" >Introduction to Chiang Mai</h3>
+
+<p>A general overview for those new to the city, covering its culture, lifestyle, and what to expect.</p>
+
+<br>
+
+</div>	
+
+
+
+<div class="section-item"><h4>Chiang Mai: Cost of Living</h4>
+
+<p>Cost of Living, Salaries, Prices for Rent & food in Chiang Mai</p>
+
+<a href="https://livingcost.org/cost/thailand/chiang-mai">https://livingcost.org/cost/thailand/chiang-mai</a><br>
+
+
+
+</div><div class="section-item"><h4>Chiang Mai Accolades</h4>
+
+<p>A collection of the accolades and positive rankings for Chiang Mai</p>
+
+<a href="https://www.chiangmai.net/accolades">https://www.chiangmai.net/accolades</a><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+ 
+
+<!-- 
+
+<div class="section-item"><h4>t</h4>
+
+<p>d</p>
+
+<a href="l">l</a><br>
+
+</div> 
+
+-->
+
+
+
+<!-- </h2> -->
+
+
+
+</form>
+
+
+
+<br><hr><br>
+
+
+
+<h5>
+
+ <strong id="Disclaimer" >Disclaimer:</strong>
+
+The Chiang Mai Expats Club provides this resource guide as a helpful starting point for our community's exploration and research. Please note that we do not control, endorse, or guarantee the content, accuracy, or availability of any external websites linked here. Businesses and services may change, close, or update without notice, and information on these sites may become outdated or inaccurate.
+
+<br>
+
+Inclusion of any link or resource is not an endorsement or recommendation, but simply a starting point for your own investigation. The dynamic nature of the web means that content evolves constantly, and despite our best efforts, we cannot ensure all information remains current or correct.
+
+<br>
+
+Maintaining and regularly updating numerous links requires significant resources, and while we strive to keep this guide as accurate as possible, we rely on community feedback to help us improve.
+
+<br>
+
+If you have suggestions, corrections, or updates for this guide, please 
+
+<a href="mailto:web@chiangmaiexpatsclub.com?subject=Feedback%20about%20the%20CEC%20Resource%20Links&body=I%20have%20some%20suggestions%20for%20the%20resource%20guide.">
+
+  contact us</a>, we welcome your feedback and collaboration.
+
+<br>
+
+</h5> 
+
+
+
+</div><!-- end of container --> 
+
+	
+
+<script>
+
+	
+
+document.getElementById('searchBtn').addEventListener('click', function() {
+
+  const query = document.getElementById('searchInput').value.toLowerCase();
+
+  const sections = document.querySelectorAll('.section-item');
+
+  sections.forEach(section => {
+
+    // Check if the section contains the keyword
+
+    if (section.textContent.toLowerCase().includes(query)) {
+
+      section.style.display = '';
+
+    } else {
+
+      section.style.display = 'none';
+
+    }
+
+  });
+
+});
+
+
+
+document.getElementById('clearBtn').addEventListener('click', function() {
+
+  document.getElementById('searchInput').value = '';
+
+  const sections = document.querySelectorAll('.section-item');
+
+  sections.forEach(section => {
+
+    section.style.display = '';
+
+  });
+
+});
+
+
+
+	
+
+</script>
+
+	
+
+</body> 
+
+
+
+  </html>
