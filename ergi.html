@@ -110,7 +110,50 @@
     border: 4px solid #4fc3f7;
   }
 
-      </style>
+.section, .chapter {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  background: #f9f9f9;
+}
+.section-header, .chapter-header {
+  cursor: pointer;
+  margin: 0;
+  padding: 0.7em 1em;
+  background: #e0e7ef;
+}
+
+.chapter-content {
+  padding: 1em;
+  display: none;
+}
+
+.chapter.open .chapter-content {
+  display: block;
+}
+
+.section.open > .chapter {
+  display: block;
+}
+
+.collapse-btns {
+  margin: 1.5em 0 1em 0;
+  text-align: center;
+}
+
+.collapse-btns button {
+  margin: 0 0.7em 0.3em 0;
+  padding: 0.7em 2em;
+  font-size: 1em;
+  background: #e0e7ef;
+  border: 1px solid #b2becd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.collapse-btns button:hover { background: #dde6f2; }
+</style>
+
       
   </head>
   
@@ -207,6 +250,10 @@
 	
 <br>
 
+<div class="collapse-btns">
+  <button class="expand-all-btn">Expand all</button>
+  <button class="collapse-all-btn">Collapse all</button>
+</div>
 
 
       
@@ -416,17 +463,18 @@
       
 <div id="s1" class="section" >
       	
-    <h2>
+    <h2 class="section-header">
       Section 1 : A Special welcome to those considering coming to Thailand/Chiang
       Mai
     </h2>
    
   <div id="s1c1" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header" >
       Chapter 1.1 – Why so many Expats consider Thailand
     </h3>
-
+    
+<div class="chapter-content">
     <h4>
       Why Thailand is Attractive to Expats
     </h4>
@@ -585,16 +633,17 @@
       These are just a few examples, and each beach community has its own charm
       and character.
     </p>
-
+</div>
 </div>
 
 
 <div id="s1c2" class="chapter" >
 
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.2 – Why consider Chiang Mai?
     </h3>
 
+   <div class="chapter-content">
     <h4>
       Chiang Mai: The Rose of the North
     </h4>
@@ -745,16 +794,17 @@
     </p>
    
    </div>
-   
+   </div>
    
    
   <div id="s1c3" class="chapter" >
   
-    <h3>
+    <h3  class="chapter-header" >
       Chapter 1.3 – What is the Chiang Mai Expats Club and why should you consider
         joining?
     </h3>
     
+    <div class="chapter-content"> 
     <p>
       Joining the Chiang Mai Expats Club (CEC) offers many benefits and opportunities
       for Expats visiting, living or planning to live in Thailand/Chiang Mai.
@@ -877,15 +927,16 @@
     </p>
     
     </div>
-   
+   </div>
    
    
   <div id="s1c4" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.4 – As a potential expat, what do you need to know about Visas?
     </h3>
-    
+  
+<div class="chapter-content">  
     <h4>
       Visas and Entry Requirements for Thailand
     </h4>
@@ -1145,12 +1196,12 @@
     </p>
    
    </div>
-   
+   </div>
    
    
   <div id="s1c5" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.5 – Getting to Chiang Mai
     </h3>
 
@@ -1312,7 +1363,7 @@
    
   <div id="s1c6" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.6 – A Little Cultural Advice
     </h3>
   
@@ -1499,7 +1550,7 @@
    
   <div id="s1c7" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.7 – Getting mobile phone service before arrival
     </h3> 
 
@@ -1573,7 +1624,7 @@
    
   <div id="s1c8" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.8 – What to do with your existing mobile phone number
     </h3>
 
@@ -1640,7 +1691,7 @@
    
   <div id="s1c9" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.9 – Why you should start getting acquainted with Google Maps
         and/or Apple Maps
     </h3>
@@ -1667,7 +1718,7 @@
    
   <div id="s1c10" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.10 – Think about how to get local currency
     </h3>
 
@@ -1812,7 +1863,7 @@
    
   <div id="s1c11" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.11 – Where to stay when you first arrive
     </h3>
 
@@ -1999,7 +2050,7 @@
    
   <div id="s1c12" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.12 – How to get answers when you first arrive
     </h3>
 
@@ -2138,7 +2189,7 @@
    
   <div id="s1c13" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.13 – Don’t Forget to Have Some Fun!
     </h3>
     
@@ -2312,7 +2363,7 @@
    
   <div id="s1c14" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 1.14 – Digital Nomads
     </h3>
 
@@ -2444,13 +2495,13 @@
       
 <div id="s2" class="section s2" >
       	
-    <h2>
+    <h2 class="section-header">
       Section 2 : Getting set up
     </h2>
 
     <div id="s2c1" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 2.1 – The LINE app
     </h3>
     
@@ -2506,7 +2557,7 @@
    
   <div id="s2c2" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 2.2 – Expat activities and events
     </h3>
 
@@ -2584,7 +2635,7 @@
    
   <div id="s2c3" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 2.3 – Learning The Thai Language
     </h3>
     
@@ -2732,7 +2783,7 @@
    
   <div id="s2c4" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 2.4 – Internet, Phone, Postal Service
     </h3>
 
@@ -3058,7 +3109,7 @@
    
   <div id="s2c5" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 2.5 – Banking in Chiang Mai
     </h3>
 
@@ -3284,7 +3335,7 @@
    
   <div id="s2c6" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 2.6 – Business and shopping hours
     </h3>
 
@@ -3354,7 +3405,7 @@
    
   <div id="s2c7" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 2.7 – Thai Holidays
     </h3>
     
@@ -3545,7 +3596,7 @@
    
   <div id="s2c8" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 2.8 – Emergency and Useful Phone Numbers
     </h3>
 
@@ -3651,13 +3702,13 @@
       
 <div id="s3" class="section s3" >
       	
-    <h2>
+    <h2 class="section-header">
       Section 3 : Getting around in Chiang Mai
     </h2>
     
 <div id="s3c1" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.1 – Finding places in Chiang Mai
     </h3>
 
@@ -3752,7 +3803,7 @@
    
   <div id="s3c2" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.2 – How to get there – Walking
     </h3>
 
@@ -3865,7 +3916,7 @@
    
   <div id="s3c3" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.3 – How to get there – Ride Sharing
     </h3>
 
@@ -3902,7 +3953,7 @@
    
   <div id="s3c4" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.4 – How to get there – Taxi/Tuk Tuk
     </h3>
 
@@ -3979,7 +4030,7 @@
    
   <div id="s3c5" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.5 – How to get there – Red Vans
     </h3>
 
@@ -4038,7 +4089,7 @@
    
   <div id="s3c6" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.6 – How to get there – Public Transportation & Other Options
     </h3>
 
@@ -4102,11 +4153,11 @@
       These resources should provide you with all the information you need to
       navigate Chiang Mai's bus system with ease.
     </p>
-    <h2>
+    <h4>
       <strong>
         How to Get There – Other Options
       </strong>
-    </h2>
+    </h4>
     <p>
       Other ways to get around Chiang Mai include renting a motorbike, hiring
       a private taxi, or a private van.
@@ -4203,7 +4254,7 @@
    
   <div id="s3c7" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.7 – Driving in Chiang Mai
     </h3>
 
@@ -4275,11 +4326,11 @@
       alert, adapt to local driving customs, and follow traffic rules. Happy
       driving!
     </p>
-    <h2>
+    <h3>
       <strong>
         Traffic and How to get around
       </strong>
-    </h2>
+    </h3>
     <p>
       The traffic situation in Chiang Mai is currently challenging due to ongoing
       infrastructure work and increased vehicle usage. The city has significant
@@ -4432,7 +4483,7 @@
    
   <div id="s3c8" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.8 – Buying a Vehicle
     </h3>
 
@@ -4577,7 +4628,7 @@
    
   <div id="s3c9" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 3.9 – Obtaining/Renewing a driver's license
     </h3>
 
@@ -4813,13 +4864,13 @@
       
 <div id="s4" class="section s4" >
       	
-    <h2>
+    <h2 class="section-header">
       Section 4 : Living
     </h2>
   
 <div id="s4c1" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.1 – Finding Accommodation – Renting
     </h3>
 
@@ -5027,21 +5078,21 @@
         (red trucks), and bike rentals nearby.
       </li>
     </ol>
-    <h2>
+    <h3>
       <strong>
         Rental Agreements
       </strong>
-    </h2>
+    </h3>
     <p>
       Renting a property in Chiang Mai involves understanding the local rental
       agreements, which can differ from what you might be used to in other countries.
       Here are the key aspects to consider:
     </p>
-    <h3>
+    <h4>
       <strong>
         Types of Rental Agreements:
       </strong>
-    </h3>
+    </h4>
     <ol>
       <li>
         <strong>
@@ -5058,11 +5109,11 @@
         are more formal and detailed.
       </li>
     </ol>
-    <h3>
+    <h4>
       <strong>
         Key Components of a Rental Agreement:
       </strong>
-    </h3>
+    </h4>
     <ol>
       <li>
         <strong>
@@ -5123,11 +5174,11 @@
         rent or terms.
       </li>
     </ol>
-    <h3>
+    <h4>
       <strong>
         Steps to Secure a Rental:
       </strong>
-    </h3>
+    </h4>
     <ol>
       <li>
         <strong>
@@ -5165,11 +5216,11 @@
         the agreement. Obtain receipts for all payments.
       </li>
     </ol>
-    <h3>
+    <h4>
       <strong>
         Legal Considerations:
       </strong>
-    </h3>
+    </h4>
     <ol>
       <li>
         <strong>
@@ -5193,11 +5244,11 @@
         with the landlord.
       </li>
     </ol>
-    <h3>
+    <h4>
       <strong>
         Additional Tips:
       </strong>
-    </h3>
+    </h4>
     <ol>
       <li>
         <strong>
@@ -5238,7 +5289,7 @@
    
   <div id="s4c2" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.2 – Finding Accommodation – Buying
     </h3>
 
@@ -5604,7 +5655,7 @@
    
   <div id="s4c3" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.3 – Utilities
     </h3>
 
@@ -5834,7 +5885,7 @@
    
   <div id="s4c4" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.4 – Home Services/Home Cleaners/Engaging Domestic Help
     </h3>
 
@@ -6058,7 +6109,7 @@
    
   <div id="s4c5" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.5 – Equipping your Home
     </h3>
 
@@ -6388,7 +6439,7 @@
    
   <div id="s4c6" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.6 – Water and Ice
     </h3>
 
@@ -6578,7 +6629,7 @@
    
   <div id="s4c7" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.7 – Food – A general discussion
     </h3>
 
@@ -6754,7 +6805,7 @@
    
   <div id="s4c8" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.8 – Food – Eating Out
     </h3>
 
@@ -6943,7 +6994,7 @@
    
   <div id="s4c9" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.9 – Food – Shopping for Food
     </h3>
 
@@ -7014,7 +7065,7 @@
    
   <div id="s4c10" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.10 – General Shopping, Laundry and Care
     </h3>
 
@@ -7311,7 +7362,7 @@
    
   <div id="s4c11" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.11 – Negotiating Prices
     </h3>
 
@@ -7428,7 +7479,7 @@
    
   <div id="s4c12" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.12 – General Health Considerations
     </h3>
     
@@ -7626,7 +7677,7 @@
    
   <div id="s4c13" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.13 – Medical / Dental / Medications / Counselling / Support
         Groups
     </h3>
@@ -7922,7 +7973,7 @@
    
   <div id="s4c14" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.14 – Religious Services
     </h3>
 
@@ -8151,7 +8202,7 @@
    
   <div id="s4c15" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.15 – Schools
     </h3>
 
@@ -8433,7 +8484,7 @@
    
   <div id="s4c16" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.16 – Security
     </h3>
 
@@ -8614,7 +8665,7 @@
 
   <div id="s4c17" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.17 – Visas
     </h3>
 
@@ -8677,7 +8728,7 @@
    
   <div id="s4c18" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.18 – Other Immigration Requirements for Expats
     </h3>
 
@@ -8737,7 +8788,7 @@
 
   <div id="s4c19" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 4.19 – Passport and Visa Photos
     </h3>
 
@@ -8791,13 +8842,13 @@
       
 <div id="s5" class="section s5" >
       	
-    <h2>
+    <h2 class="section-header">
       Section 5 : Other resources
     </h2>
    
     <div id="s5c1" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 5.1 – Consulates
     </h3>
 
@@ -8980,7 +9031,7 @@
    
   <div id="s5c2" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 5.2 – News/Current Events
     </h3>
 
@@ -9055,7 +9106,7 @@
    
   <div id="s5c3" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 5.3 – Things to Do and Places to Go
     </h3>
 
@@ -9152,7 +9203,7 @@
    
   <div id="s5c4" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 5.4 – Special Interests – Finding your “birds of a feather”
     </h3>
 
@@ -9252,7 +9303,7 @@
    
   <div id="s5c5" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 5.5 – Book Stores in Chiang Mai
     </h3>
 
@@ -9333,7 +9384,7 @@
    
   <div id="s5c6" class="chapter" >
   
-    <h3>
+    <h3 class="chapter-header">
       Chapter 5.6 – It happens to all of us – End of Life in Thailand
     </h3>
 
@@ -9361,8 +9412,47 @@
  
 </div>     
 <!-- end of section --> 
-      </div> <!-- end of container --> 
-    
+
+<div class="collapse-btns">
+  <button class="expand-all-btn">Expand all</button>
+  <button class="collapse-all-btn">Collapse all</button>
+</div>
+
+</div> <!-- end of container --> 
+
+	  
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Make chapter headers collapsible
+  document.querySelectorAll('.chapter-header').forEach(function(head) {
+    head.addEventListener('click', function() {
+      head.parentElement.classList.toggle('open');
+    });
+    // By default, collapse chapters
+    head.parentElement.classList.remove('open');
+  });
+
+  // Expand/collapse all
+  function setAllChapters(expand) {
+    document.querySelectorAll('.chapter').forEach(function(ch) {
+      if (expand) {
+        ch.classList.add('open');
+      } else {
+        ch.classList.remove('open');
+      }
+    });
+  }
+
+  document.querySelectorAll('.expand-all-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() { setAllChapters(true); });
+  });
+
+  document.querySelectorAll('.collapse-all-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() { setAllChapters(false); });
+  });
+});
+</script>
+
   </body>
 
 </html>
