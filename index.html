@@ -1669,7 +1669,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
   if (query && input) {
     input.value = query.toLowerCase();  // set input value
-    filterChapters();  // run the filter
+    document.getElementById('searchBtn').click();  // simulate a click
   }
 });
 
