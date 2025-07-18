@@ -127,6 +127,7 @@ div.section-header,div.chapter-header,div.chapter {
   padding:0.7em 2em;
   font-size:1em;
   background:#e0e7ef;
+  color: #fff;
   background:linear-gradient(90deg,#6c63ff 60%,#8576ff 100%);
   border:1px solid #b2becd;
   border-radius:4px;
@@ -162,7 +163,7 @@ div.section-header,div.chapter-header,div.chapter {
 .section:not(.open) .chapter {
   display:none;
 }
-/*.section:not(.open) .section-header {
+/* .section:not(.open) .section-header {
   display:none;
 }
 */
@@ -8820,7 +8821,7 @@ div.section-header,div.chapter-header,div.chapter {
           sectionHeader.addEventListener('click',
           function() {
             sectionHeader.parentElement.classList.toggle('open');
-            sectionHeader.classList.toggle('open');
+            //sectionHeader.classList.toggle('open');
           });
         });
 
@@ -8831,7 +8832,7 @@ div.section-header,div.chapter-header,div.chapter {
             // Prevent section toggle if you click a chapter
             e.stopPropagation();
             chapterHeader.parentElement.classList.toggle('open');
-            chapterHeader.classList.toggle('open');
+            //chapterHeader.classList.toggle('open');
           });
         });
 
