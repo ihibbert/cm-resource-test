@@ -135,7 +135,7 @@
   display: none;
 }
 	    
-.section.open .chapter-header.open {
+.section.open .chapter-header {
   display: block;
 }
 
@@ -9202,11 +9202,18 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     // By default, collapse chapters
     head.parentElement.classList.remove('open');
-  });
+    head.classList.remove('open'); //i
+  });​
 
   // Expand/collapse all
   function setAllChapters(expand) {
     document.querySelectorAll('.chapter').forEach(function(ch) {
+      if (expand) {
+        ch.classList.add('open');
+      } else {
+        ch.classList.remove('open');
+      };
+      document.querySelectorAll('.chapter-header').forEach(function(ch) {
       if (expand) {
         ch.classList.add('open');
       } else {
