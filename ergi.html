@@ -177,6 +177,37 @@ div.section-header,div.chapter-header,div.chapter {
   display:block;
 }
 */ 
+
+
+.section-header:not(.open) .chapter .chapter-header {
+  display:none;
+}
+.section-header.open .chapter. chapter-header {
+  display:block;
+}
+.section-header:not(.open) .chapter .chapter-content {
+  display:none;
+}
+.section-header.open .chapter. chapter-content {
+  display:block;
+}
+
+.section:not(.open) .chapter .chapter-header {
+  display:none;
+}
+.section.open .chapter. chapter-header {
+  display:block;
+}
+.section:not(.open) .chapter .chapter-content {
+  display:none;
+}
+.section.open .chapter. chapter-content {
+  display:block;
+}
+
+
+
+      
 /* Optional:style the headers for click feedback */ 
 .section-header {
   cursor:pointer;
@@ -8788,6 +8819,7 @@ div.section-header,div.chapter-header,div.chapter {
           sectionHeader.addEventListener('click',
           function() {
             sectionHeader.parentElement.classList.toggle('open');
+            sectionHeader.classList.toggle('open');
           });
         });
 
@@ -8798,6 +8830,7 @@ div.section-header,div.chapter-header,div.chapter {
             // Prevent section toggle if you click a chapter
             e.stopPropagation();
             chapterHeader.parentElement.classList.toggle('open');
+            chapterHeader.classList.toggle('open');
           });
         });
 
@@ -8812,6 +8845,14 @@ div.section-header,div.chapter-header,div.chapter {
           });
 
           document.querySelectorAll('.chapter-header').forEach(function(ch) {
+            if (expand) {
+              ch.classList.add('open');
+            } else {
+              ch.classList.remove('open');
+            }
+          });
+
+          document.querySelectorAll('.chapter-content').forEach(function(ch) {
             if (expand) {
               ch.classList.add('open');
             } else {
