@@ -73,8 +73,7 @@ nav ul {
   flex-wrap:wrap;
   gap:1em;
 }
-nav
-      ul li {
+nav ul li {
   background:#e3f2fd;
   border-radius:4px;
   padding:0.3em 0.8em;
@@ -83,21 +82,21 @@ nav ul li a {
   color:#1565c0;
   font-weight:500;
 }
-/* Responsive for mobile
-      */ @media (max-width:600px) {
-  main,.container {
-  padding:1em 0.5em;
+/* Responsive for mobile */ 
+@media (max-width:600px) {
+  main, .container {
+    padding:1em 0.5em;
+  }
+  h1 {
+    font-size:1.4em;
+  }
+  h2 {
+    font-size:1.1em;
+  }
 }
-h1 {
-  font-size:1.4em;
-}
-h2 {
-  font-size:1.1em;
-}
-}.section,.chapter {
+.section,.chapter {
   border:1px solid #ccc;
   border-radius:5px;
-  //margin-bottom:1em;
   background:#f9f9f9;
 }
 .chapter:not(.open) {
@@ -106,7 +105,6 @@ h2 {
 .section-header,.chapter-header {
   cursor:pointer;
   margin:0;
-  //margin-bottom:2em;
   padding:1em;
   background:#e3f2fd;
   border-radius:6px;
@@ -124,8 +122,7 @@ div.section-header,div.chapter-header,div.chapter {
   margin:1.5em 0 1em 0;
   text-align:center;
 }
-.collapse-btns
-      button {
+.collapse-btns button {
   margin:0 0.7em 0.3em 0;
   padding:0.7em 2em;
   font-size:1em;
@@ -135,8 +132,7 @@ div.section-header,div.chapter-header,div.chapter {
   border-radius:4px;
   cursor:pointer;
 }
-.collapse-btns
-      button:hover {
+.collapse-btns button:hover {
   background:#dde6f2;
 }
 .chapter-content {
@@ -146,8 +142,7 @@ div.section-header,div.chapter-header,div.chapter {
 .chapter.open .chapter-content {
   display:block;
 }
-.section.open
-      > .chapter {
+.section.open > .chapter {
   display:block;
 }
 /* .chapter-header.open {
@@ -159,7 +154,6 @@ div.section-header,div.chapter-header,div.chapter {
 */
 .chapter-header {
   display:none;
-  // initially hidden
 }
 .section.open .chapter-header {
   display:block;
@@ -182,7 +176,8 @@ div.section-header,div.chapter-header,div.chapter {
 .section.open .chapter {
   display:block;
 }
-*/ /* Optional:style the headers for click feedback */ 
+*/ 
+/* Optional:style the headers for click feedback */ 
 .section-header {
   cursor:pointer;
   background:#eef2f8;
