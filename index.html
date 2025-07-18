@@ -1660,7 +1660,30 @@ If you have suggestions, corrections, or updates for this guide, please
 </div><!-- end of container --> 
 	
 <script>
-	
+
+// Run when the page loads
+window.addEventListener('DOMContentLoaded', function () {
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get('search');
+  const input = document.getElementById('searchInput');
+
+  if (query && input) {
+    input.value = query.toLowerCase();  // set input value
+    filterChapters();  // run the filter
+  }
+});
+
+// Your existing filter function
+function filterChapters() {
+  const query = document.getElementById("searchInput").value.toLowerCase();
+  const chapters = document.querySelectorAll(".chapter");
+
+  chapters.forEach(chapter => {
+    const text = chapter.innerText.toLowerCase();
+    chapter.style.display = text.includes(query) ? "block" : "none";
+  });
+} 
+
 document.getElementById('searchBtn').addEventListener('click', function() {
   const query = document.getElementById('searchInput').value.toLowerCase();
   const sections = document.querySelectorAll('.section');
