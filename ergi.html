@@ -157,6 +157,35 @@
 }
 
 .collapse-btns button:hover { background: #dde6f2; }
+
+
+
+/* Hide all chapters initially */
+.section:not(.open) .chapter {
+  display: none;
+}
+/* Show chapters when section is open */
+.section.open .chapter {
+  display: block;
+}
+
+/* Optionally: start with all sections closed */
+.section .chapter {
+  display: none;
+}
+.section.open .chapter {
+  display: block;
+}
+
+/* Optional: style the headers for click feedback */
+.section-header {
+  cursor: pointer;
+  background: #eef2f8;
+  padding: .6em;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+}
+
 	    
 </style>
       
@@ -9203,6 +9232,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // By default, collapse chapters
     head.parentElement.classList.remove('open');
     head.classList.remove('open'); //i
+  });
+	
+	
+// Add click functionality to all section headers
+  document.querySelectorAll('.section-header').forEach(function(header) {
+    header.addEventListener('click', function() {
+      // Toggle the 'open' class on the parent .section div
+      var section = header.parentElement;
+      section.classList.toggle('open');
+    });
+    // Optional: start with sections closed
+    //header.parentElement.classList.remove('open');
   });​
 
   // Expand/collapse all
