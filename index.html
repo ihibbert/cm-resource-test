@@ -235,6 +235,10 @@
 #quirkyResult {
   margin-top: 1em;
 }
+
+#navigation_links_show, #welcome_message_show  {
+  display: none;
+}
 	
 </style>
 
@@ -250,7 +254,7 @@
 <h1>Chiang Mai Expat's Online Resource Guide</h1>
 
 <form id="resourceForm"> 
-  <div class="welcome_message">
+  <div id="welcome_message">
   <h2>
     Welcome to the most complete and recently updated <strong>Chiang Mai Expat's Online Resource Guide</strong>! Whether you're new to Chiang Mai or a long-term resident of this beautiful city, this page connects you with the best websites and contacts for <strong>visas</strong>, <strong>housing</strong>, <strong>healthcare</strong>, <strong>community groups</strong>, <strong>news</strong>, and <strong>daily life</strong> in Northern Thailand. 
     <br><em>Expats helping Expats</em> - our mission is to make your Chiang Mai experience easier, safer, and more enjoyable.
@@ -258,10 +262,10 @@
 	
   <br>
   </div>
-  <div class="welcome_message_show, display:none" >
+  <div id="welcome_message_show" >
     <button type="button" id="showWelcomeBtn">Show welcome</button>
   </div>
-  <div class="navigation_links">
+  <div id="navigation_links">
   <!-- Table of Contents for user navigation and SEO -->
   <nav>
     <ul>
@@ -293,7 +297,7 @@
   </nav>
  <br>
 </div>
-  <div class="navigation_links_show, display:none" >
+  <div id="navigation_links_show" >
     <button type="button" id="showNavBtn">Show navigation</button>
   </div>
 
