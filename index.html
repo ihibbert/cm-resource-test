@@ -184,6 +184,8 @@
 }
 
 #searchBtn, 
+#showWelcomeBtn, 
+#showNavBtn,
 #quirkyBtn, 
 #clearBtn {
   padding: 10px 20px;
@@ -203,12 +205,14 @@
 #quirkyBtn:hover,
 #searchBtn:focus,
 #quirkyBtn:focus,
+#showWelcomeBtn:focus,
+#showNavBtn:focus,
 #clearBtn:focus {
   background: #3f37c9;          /* Darker on hover/focus */
   box-shadow: 0 4px 12px rgba(63,55,201,0.15);
 }
 
-#searchBtn {
+#searchBtn, #showWelcomeBtn, #showNavBtn {
   background: linear-gradient(90deg, #6c63ff 60%, #8576ff 100%);
 }
 
@@ -244,14 +248,20 @@
 	
 	
 <h1>Chiang Mai Expat's Online Resource Guide</h1>
-	
+
+<form id="resourceForm"> 
+  <div class="welcome_message">
   <h2>
     Welcome to the most complete and recently updated <strong>Chiang Mai Expat's Online Resource Guide</strong>! Whether you're new to Chiang Mai or a long-term resident of this beautiful city, this page connects you with the best websites and contacts for <strong>visas</strong>, <strong>housing</strong>, <strong>healthcare</strong>, <strong>community groups</strong>, <strong>news</strong>, and <strong>daily life</strong> in Northern Thailand. 
     <br><em>Expats helping Expats</em> - our mission is to make your Chiang Mai experience easier, safer, and more enjoyable.
   </h2> 
 	
   <br>
-  
+  </div>
+  <div class="welcome_message_show" display="none" >
+    <button type="button" id="showWelcomeBtn">Show welcome</button>
+  </div>
+  <div class="navigation_links">
   <!-- Table of Contents for user navigation and SEO -->
   <nav>
     <ul>
@@ -281,10 +291,14 @@
 <li><a href="#Disclaimer" >Disclaimer</a></li>
     </ul>
   </nav>
-	
+ <br>
+</div>
+  <div class="navigation_links_show" display="none" >
+    <button type="button" id="showNavBtn">Show navigation</button>
+  </div>
+
 <br>
 	
-<form id="resourceForm">
 	
   <div id="searchBar">
     <input type="text" id="searchInput" placeholder="Search items...">
@@ -1669,6 +1683,17 @@ window.addEventListener('DOMContentLoaded', function () {
 
   if (query && input) {
     input.value = query.toLowerCase();  // set input value
+	  
+    const blockNav = document.getElementById('navigation_links');
+    blockNav.style.display = 'none';
+    const btnNav = document.getElementById('navigation_links_show');  
+    btnNav.style.display = 'block';
+
+    const blockWel = document.getElementById('welcome_message');  
+    blockWel.style.display = 'none';
+    const btnWel = document.getElementById('welcome_message_show');  
+    btnWel.style.display = 'block';
+	  
     document.getElementById('searchBtn').click();  // simulate a click
   }
 });
@@ -1701,6 +1726,20 @@ document.getElementById('searchBtn').addEventListener('click', function() {
   });
 });
 
+document.getElementById('showNavBtn').addEventListener('click', function() {
+  const block = document.getElementById('navigation_links');
+  block.style.display = 'block';
+  const btn = document.getElementById('navigation_links_show');  
+  btn.style.display = 'none';
+});	
+
+document.getElementById('showWelcomeBtn').addEventListener('click', function() {
+  const block = document.getElementById('welcome_message');  
+  block.style.display = 'block';
+  const btn = document.getElementById('welcome_message_show');  
+  btn.style.display = 'none';
+});
+	
 document.getElementById('clearBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
   const sections = document.querySelectorAll('.section');
@@ -1713,6 +1752,16 @@ document.getElementById('clearBtn').addEventListener('click', function() {
   });
   //document.getElementById('quirkyResult').innerHTML = '';​​
   document.getElementById('quirkyResult').replaceChildren();
+
+    const blockNav = document.getElementById('navigation_links');
+    blockNav.style.display = 'block';
+    const btnNav = document.getElementById('navigation_links_show');  
+    btnNav.style.display = 'none';
+
+    const blockWel = document.getElementById('welcome_message');  
+    blockWel.style.display = 'block';
+    const btnWel = document.getElementById('welcome_message_show');  
+    btnWel.style.display = 'none';
 });
 	
 document.getElementById('quirkyBtn').addEventListener('click', function() {
