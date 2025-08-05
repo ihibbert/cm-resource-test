@@ -3,7 +3,13 @@ CEC ERG Links
 
 https://github.com/ihibbert/cm-resource-test/blob/master/index.html
 
+
+
 https://ihibbert.github.io/cm-resource-test/
+
+https://ihibbert.github.io/cm-resource-test/index.html
+
+https://ihibbert.github.io/cm-resource-test/ergi.html
 
 
 W3C Markup Validation Service: https://validator.w3.org/
@@ -24,6 +30,7 @@ https://www.drlinkcheck.com/
 
 https://www.deadlinkchecker.com/website-dead-link-checker.asp
 
+https://pagespeed.web.dev/  (About PageSpeed Insights) 
 
 https://pagespeed.web.dev/analysis/https-ihibbert-github-io-cm-resource-test/4cdyapx8mm?form_factor=desktop
 
