@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chiang Mai Expats Resource Guide</title>
+  <style>
+    .icon {
+      width: 1.25em;
+      height: 1.25em;
+      vertical-align: middle;
+      margin-left: 0.3em;
+    }
+    /* Changed from display:none to position/size hiding for SVG sprite */
+    .svg-sprite {
+      position: absolute;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <!-- Place SVG sprite at the start of the body, visually hidden with width/height, not display:none -->
+  <svg class="svg-sprite" aria-hidden="true">
+    <defs>
+      <linearGradient id="eyeGradient" x1="0" y1="32" x2="64" y2="32">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="25%" stop-color="orange"/>
+        <stop offset="50%" stop-color="yellow"/>
+        <stop offset="75%" stop-color="green"/>
+        <stop offset="100%" stop-color="blue"/>
+      </linearGradient>
+      <radialGradient id="irisGradient" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="violet"/>
+        <stop offset="50%" stop-color="green"/>
+        <stop offset="100%" stop-color="red"/>
+      </radialGradient>
+      <linearGradient id="newGradient" x1="0" y1="0" x2="32" y2="0">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="25%" stop-color="orange"/>
+        <stop offset="50%" stop-color="yellow"/>
+        <stop offset="75%" stop-color="green"/>
+        <stop offset="100%" stop-color="blue"/>
+      </linearGradient>
+    </defs>
+    <symbol id="icon-eye" viewBox="0 0 64 64">
+      <path d="M4 32C12 16 24 8 32 8s20 8 28 24c-8 16-20 24-28 24S12 48 4 32z" stroke="url(#eyeGradient)" stroke-width="4" fill="none"/>
+      <circle cx="32" cy="32" r="8" fill="url(#irisGradient)" />
+      <circle cx="32" cy="32" r="3" fill="#000"/>
+    </symbol>
+    <symbol id="icon-new" viewBox="0 0 32 16">
+      <rect x="0" y="0" rx="8" ry="8" width="32" height="16" fill="none" stroke="url(#newGradient)" stroke-width="2"/>
+      <text x="16" y="11" font-size="10" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle" fill="url(#newGradient)">NEW</text>
+    </symbol>
+  </svg>
+
+  <main>
+    <h1>Chiang Mai Expat's Online Resource Guide</h1>
+
+    <section class="section-item" data-new-date="2025-08-11">
+    	 
+      <h4>
+        <svg class="icon icon-new" role="img" aria-label="New Item">
+          <use href="#icon-new"></use>
+        </svg>
+Chiang Mai Neighborhood Map
+
+      </h4>
+      <p>Hoodmaps, a crowdsourced, interactive map that captures the "vibe" of neighborhoods.</p>
+      <a href="https://hoodmaps.com/chiang-mai-neighborhood-map" target="_blank" rel="noopener noreferrer">https://hoodmaps.com/chiang-mai-neighborhood-map</a>
+    </section>
+  </main>
+
+  <script defer>
+    function hideOldBadges({ daysVisible = 14 } = {}) {
+      try {
+        const items = document.querySelectorAll('[data-new-date]');
+        const now = new Date();
+        now.setHours(0, 0, 0, 0); // Normalize to start of day in local timezone
+
+        items.forEach(el => {
+          const dateStr = el.getAttribute('data-new-date');
+          if (!dateStr) {
+            console.warn('Missing data-new-date attribute on element:', el);
+            return;
+          }
+
+          const newDate = new Date(dateStr);
+          if (isNaN(newDate)) {
+            console.warn(`Invalid date format in data-new-date: ${dateStr}`);
+            return;
+          }
+
+          newDate.setHours(0, 0, 0, 0); // Normalize to start of day
+          const diffDays = (now - newDate) / (1000 * 60 * 60 * 24);
+          if (diffDays > daysVisible) {
+            const icon = el.querySelector('.icon-new');
+            if (icon) {
+              icon.remove();
+              console.debug(`Removed 'New' badge for element with date ${dateStr}`);
+            }
+          }
+        });
+      } catch (err) {
+        console.error('Error in hideOldBadges:', err.message);
+      }
+    }
+
+    // Run the function after DOM is fully loaded (defer ensures this)
+    hideOldBadges({ daysVisible: 14 });
+  </script>
+</body>
+</html>
