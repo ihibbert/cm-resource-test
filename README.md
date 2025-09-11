@@ -130,4 +130,9 @@ Need to generate a new Google form question each week and get information if spo
 
 Site published: https://ihibbert.github.io/cm-resource-test/
 
+
+Trim search string of trailing spaces. 
+
+Button next to random to show all new items. 
+
 ### end ###
