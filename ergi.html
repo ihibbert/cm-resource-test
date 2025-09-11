@@ -8800,7 +8800,7 @@ div.section, div.section-header, div.chapter-header, div.chapter {
           });
 
           document.querySelectorAll('.chapter-content').forEach(function(ch) {
-            if (expand) {
+            if (expand && (ch.classList.contains('free-content') || document.getElementById("isMember").checked) ) {
               ch.classList.add('open');
             } else {
               ch.classList.remove('open');
@@ -8842,4 +8842,5 @@ div.section, div.section-header, div.chapter-header, div.chapter {
   </body>
 
 </html>
+
 
