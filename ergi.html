@@ -172,6 +172,12 @@ div.section, div.section-header, div.chapter-header, div.chapter {
   display:none;
 }
 .chapter.open .chapter-content {
+  display:none;
+}
+.chapter.open .member-content {
+  display:block;
+  }
+.chapter.open .free-content {
   display:block;
 }
 .section.open > .chapter {
@@ -264,7 +270,7 @@ div.section, div.section-header, div.chapter-header, div.chapter {
         well while in Thailand.
       </p>
       
-    <input type="checkbox" id="isMember" name="isMember" value="Member">
+    <input type="checkbox" id="isMember" name="isMember" value="Member" checked >
     <label for="isMember"> I am a Member</label><br>
       
       <p>
@@ -359,7 +365,7 @@ div.section, div.section-header, div.chapter-header, div.chapter {
           <h3 class="chapter-header">
             Chapter 1.1 – Why so many Expats consider Thailand
           </h3>
-          <div class="chapter-content free-chapter">
+          <div class="chapter-content free-content">
             <h4>
               Why Thailand is Attractive to Expats
             </h4>
@@ -523,7 +529,7 @@ div.section, div.section-header, div.chapter-header, div.chapter {
           <h3 class="chapter-header">
             Chapter 1.2 – Why consider Chiang Mai?
           </h3>
-          <div class="chapter-content free-chapter">
+          <div class="chapter-content free-content">
             <h4>
               Chiang Mai: The Rose of the North
             </h4>
@@ -678,7 +684,7 @@ div.section, div.section-header, div.chapter-header, div.chapter {
             Chapter 1.3 – What is the Chiang Mai Expats Club and why should you consider
             joining?
           </h3>
-          <div class="chapter-content free-chapter">
+          <div class="chapter-content free-content">
             <p>
               Joining the Chiang Mai Expats Club (CEC) offers many benefits and opportunities
               for Expats visiting, living or planning to live in Thailand/Chiang Mai.
@@ -805,7 +811,7 @@ div.section, div.section-header, div.chapter-header, div.chapter {
           <h3 class="chapter-header">
             Chapter 1.4 – As a potential expat, what do you need to know about Visas?
           </h3>
-          <div class="chapter-content free-chapter">
+          <div class="chapter-content free-content">
             <h4>
               Visas and Entry Requirements for Thailand
             </h4>
@@ -8839,9 +8845,33 @@ div.section, div.section-header, div.chapter-header, div.chapter {
         });
       });
     </script>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const isMemberCheckbox = document.querySelector('#isMember');
+  const chapterItems = document.querySelectorAll('.chapter-content');
+
+  function toggleSectionItems() {
+    chapterItems.forEach(function(ch) {
+            if (isMemberCheckbox.checked) {
+              ch.classList.add('member-content');
+            } else {
+              ch.classList.remove('member-content');
+            }
+          });
+        };
+  }
+
+  isMemberCheckbox.addEventListener('change', toggleSectionItems);
+
+  // Initialize on load
+  toggleSectionItems();
+});
+    </script>
   </body>
 
 </html>
+
 
 
 
