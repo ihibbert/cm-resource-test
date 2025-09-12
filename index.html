@@ -1939,9 +1939,40 @@ document.getElementById('quirkyBtn').addEventListener('click', function() {
   });
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const isMemberCheckbox = document.querySelector('#isMember');
+  const sectionItems = document.querySelectorAll('.section-item');
+
+  function toggleSectionItems() {
+    sectionItems.forEach(item => {
+      const h4 = item.querySelector('h4');
+      const p = item.querySelectorAll('p');
+      const a = item.querySelectorAll('a');
+      if (isMemberCheckbox.checked) {
+        // Show all
+        p.forEach(el => el.style.display = '');
+        a.forEach(el => el.style.display = '');
+      } else {
+        // Hide p and a
+        p.forEach(el => el.style.display = 'none');
+        a.forEach(el => el.style.display = 'none');
+      }
+      // h4 is always shown, so no change here
+    });
+  }
+
+  isMemberCheckbox.addEventListener('change', toggleSectionItems);
+
+  // Initialize on load
+  toggleSectionItems();
+});
+</script>
+ 
 	
 </body> 
 
 </html>
+
 
 
