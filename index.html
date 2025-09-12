@@ -187,6 +187,8 @@
 #showWelcomeBtn, 
 #showNavBtn,
 #quirkyBtn, 
+#bestBtn, 
+#newBtn
 #clearBtn {
   padding: 10px 20px;
   border: none;
@@ -205,6 +207,8 @@
 #quirkyBtn:hover,
 #searchBtn:focus,
 #quirkyBtn:focus,
+#bestBtn:focus, 
+#newBtn:focus, 
 #showWelcomeBtn:focus,
 #showNavBtn:focus,
 #clearBtn:focus {
@@ -216,7 +220,7 @@
   background: linear-gradient(90deg, #6c63ff 60%, #8576ff 100%);
 }
 
-#quirkBtn {
+#quirkBtn, #bestBtn, #newBtn {
   background: linear-gradient(90deg, #6c63ff 40%, #8576ff 100%);
 }
 
@@ -232,7 +236,7 @@
   border-color: #3f37c9;
 }
 
-#quirkyResult {
+#quirkyResult, #bestResult, #newResult {
   margin-top: 1em;
 }
 
@@ -363,6 +367,18 @@
   
   <hr>
 
+  <div id="bestItems">
+    <button type="button" id="bestBtn">Best Links</button>
+    <br>
+    <div id="bestResult"></div>
+  </div>
+	
+  <div id="newItems">
+    <button type="button" id="newBtn">New Links</button>
+    <br>
+    <div id="newResult"></div>
+  </div>
+	
   <div id="quirkyItems">
     <button type="button" id="quirkyBtn">Random Site</button>
     <br>
@@ -390,7 +406,7 @@
 <p>Hoodmaps, a crowdsourced, interactive map that captures the "vibe" of neighborhoods</p>
 <a href="https://hoodmaps.com/chiang-mai-neighborhood-map">
 
-<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="vertical-align:middle;">
+<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="vertical-align:middle;newSvg">
   <title>Rainbow Eye Icon with NEW Text</title>
   <!-- White background -->
   <rect width="100" height="60" fill="white" />
@@ -481,7 +497,7 @@ https://www.chiangmai.net/accolades</a><br>
 </div><div class="section-item" data-new-date="2025-07-25"><h4>Chiang Mai Expats Club (CEC)</h4>
 <p>A non-profit organization providing a safety net for expats, hosting monthly meetings, social events, and special interest groups.</p>
 <a href="https://chiangmaiexpatsclub.com/">
-	<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="vertical-align:middle;">
+	<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="vertical-align:middle;bestSvg">
   <title>Rainbow Eye Icon - Rainbow eye with white circle and black border</title>
   <!-- White background -->
   <rect width="100" height="60" fill="white"/>
@@ -925,7 +941,7 @@ https://www.chiangmai.net/accolades</a><br>
 </div><div class="section-item"><h4>CMHY.city</h4>
 <p>Chiang Mai Help You - An online directory of (many, many, many) shops, services, and businesses in Chiang Mai.</p>
 <a href="https://www.cmhy.city/en">
-<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="vertical-align:middle;">
+<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="vertical-align:middle;bestSvg">
   <title>Rainbow Eye Icon - Rainbow eye with white circle and black border</title>
   <!-- White background -->
   <rect width="100" height="60" fill="white"/>
@@ -1880,6 +1896,8 @@ document.getElementById('clearBtn').addEventListener('click', function() {
   });
   //document.getElementById('quirkyResult').innerHTML = '';​​
   document.getElementById('quirkyResult').replaceChildren();
+  document.getElementById('bestResult').replaceChildren(); 
+  document.getElementById('newResult').replaceChildren();
 
     const blockNav = document.getElementById('navigation_links');
     blockNav.style.display = 'block';
@@ -1973,6 +1991,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
