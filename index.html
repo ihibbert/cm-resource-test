@@ -1885,10 +1885,10 @@ document.getElementById('quirkyBtn').addEventListener('click', function() {
 document.getElementById('bestBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
   const allSectionItems = document.querySelectorAll('div.section-item');
-  //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg') !== null);
+  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg') !== null);
   const resultDiv = document.getElementById('bestResult');
   resultDiv.innerHTML = '';
-  allSectionItems.forEach(section => {
+  filtered.forEach(section => {
     const chosen = section.cloneNode(true);
     resultDiv.appendChild(chosen);
   });
@@ -1896,11 +1896,13 @@ document.getElementById('bestBtn').addEventListener('click', function() {
 
 document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
-  const allSectionItems = document.querySelectorAll('div.section-item .newSvg');
+	const allSectionItems = document.querySelectorAll('div.section-item');
+    const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.newSvg') !== null);
+  //const allSectionItems = document.querySelectorAll('div.section-item .newSvg');
   //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.newSvg') !== null);
   const resultDiv = document.getElementById('newResult');
   resultDiv.innerHTML = '';
-  allSectionItems.forEach(section => {
+  filtered.forEach(section => {
     const chosen = section.cloneNode(true);
     resultDiv.appendChild(chosen);
   });
@@ -1969,6 +1971,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
