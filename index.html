@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+3<!DOCTYPE html>
 <html lang="en">
 <!-- SEO Optimization Snippet for Chiang Mai Expats Resource Guide -->
 <head>
@@ -256,7 +256,7 @@
 </head>
 <body>
 	
-<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="visibility:hidden; vertical-align:middle;" class="newSvg">
+<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" role="img" style="visibility:hidden; vertical-align:middle;" class="newSvg">
   <symbol id="icon-new3">
 	<title>New link Icon</title>
   <!-- White background -->
@@ -282,7 +282,7 @@
 </svg>
 
   
-<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="visibility:hidden; vertical-align:middle;" class="bestSvg">
+<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" role="img" style="visibility:hidden; vertical-align:middle;" class="bestSvg">
   <symbol id="icon-best3">
   <title>Best Icon</title>
   <!-- White background -->
@@ -1881,6 +1881,30 @@ document.getElementById('quirkyBtn').addEventListener('click', function() {
   resultDiv.innerHTML = '';
   resultDiv.appendChild(chosen);
 });
+
+document.getElementById('bestBtn').addEventListener('click', function() {
+  document.getElementById('searchInput').value = '';
+  const allSectionItems = document.querySelectorAll('div.section-item');
+  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.bestSvg') !== null);
+  const resultDiv = document.getElementById('bestResult');
+  resultDiv.innerHTML = '';
+  filtered.forEach(section => {
+    const chosen = section.cloneNode(true);
+    resultDiv.appendChild(chosen);
+  });
+});
+
+document.getElementById('newBtn').addEventListener('click', function() {
+  document.getElementById('searchInput').value = '';
+  const allSectionItems = document.querySelectorAll('div.section-item');
+  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.newSvg') !== null);
+  const resultDiv = document.getElementById('newResult');
+  resultDiv.innerHTML = '';
+  filtered.forEach(section => {
+    const chosen = section.cloneNode(true);
+    resultDiv.appendChild(chosen);
+  });
+});
 	
 </script>
 
@@ -1945,14 +1969,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
-
-
-
-
-
-
-
-
 
 
 
