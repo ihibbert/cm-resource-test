@@ -244,7 +244,7 @@
   display: none;
 }
 
-.icon-eye, .icon-new {
+.icon-eye, .icon-new, .​newSvg {
   width: 1.1em;
   height: 1.1em;
   vertical-align: middle;
@@ -299,20 +299,20 @@
   </symbol>
 </svg>
 
-<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="visibility:hidden; vertical-align:middle; newSvg">
+<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="visibility:hidden; vertical-align:middle;" class="newSvg">
   <symbol id="icon-eye3">
 	<title>New link Icon</title>
   <!-- White background -->
   <rect width="100" height="60" fill="white" />
   <!-- Elliptical eye shape filled with rainbow gradient -->
-  <path fill="url(#rainbowGradient3)" stroke="black" stroke-width="2" d="M10 30 Q 50 0 90 30 Q 50 60 10 30 Z" />
+  <path fill="url(#rainbowGradientE3)" stroke="black" stroke-width="2" d="M10 30 Q 50 0 90 30 Q 50 60 10 30 Z" />
   <!-- NEW text centered -->
   <text x="50" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="black" font-weight="bold" pointer-events="none">
     NEW
   </text>
   <!-- Gradient definition for rainbow fill -->
   <defs>
-    <linearGradient id="rainbowGradient3" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="rainbowGradientE3" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#FF0000"/>
       <stop offset="20%" stop-color="#FF7F00"/>
       <stop offset="40%" stop-color="#FFFF00"/>
@@ -325,7 +325,28 @@
 </svg>
 
   
-	
+<svg width="120" height="72" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img" style="visibility:hidden; vertical-align:middle;" class="bestSvg">
+  <symbol id="icon-best3">
+  <title>Best Icon</title>
+  <!-- White background -->
+  <rect width="100" height="60" fill="white"/>
+  <!-- Outer rainbow eye shape -->
+  <path fill="url(#rainbowGradientB3)" stroke="black" stroke-width="2" d="M10 30 Q 50 0 90 30 Q 50 60 10 30 Z"/>
+  <!-- Central white circle with black border -->
+  <circle cx="50" cy="30" r="15" fill="white" stroke="black" stroke-width="2"/>
+  <!-- Gradient definition for rainbow fill -->
+  <defs>
+    <linearGradient id="rainbowGradientB3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF0000"/>
+      <stop offset="20%" stop-color="#FF7F00"/>
+      <stop offset="40%" stop-color="#FFFF00"/>
+      <stop offset="60%" stop-color="#00FF00"/>
+      <stop offset="80%" stop-color="#0000FF"/>
+      <stop offset="100%" stop-color="#8B00FF"/>
+    </linearGradient>
+  </defs>
+  </symbol>
+</svg>
 
 <div class="container">
 	
@@ -468,22 +489,26 @@ https://www.chiangmai.net/accolades</a><br>
 </div><div class="section-item"><h4>Lonely Planet Chiang Mai Guide</h4>
 <p>Lonely Planet's recommended attractions, including temples, museums, and markets.</p>
 <a href="https://www.lonelyplanet.com/destinations/thailand/chiang-mai-province/chiang-mai">
-	<svg width="120" height="72" viewBox="0 0 100 60" aria-hidden="true">
-  <use xlink:href="#icon-eye3"></use>
+	<svg width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
+      <use xlink:href="#icon-eye3"></use>
 	</svg> 
 	https://www.lonelyplanet.com/destinations/thailand/chiang-mai-province/chiang-mai</a><br>
 	
 </div><div class="section-item"><h4>Nomadic Matt Top Things to Do</h4>
 <p>Covers must-visit attractions like Wat Phra That Doi Suthep, ethical elephant sanctuaries, and Doi Inthanon National Park.</p>
 <a href="https://blog.byklo.rent/chiang-mai-travel-guide-5-day-itinerary/">
-	<svg aria-hidden="true">
+	<svg width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
       <use xlink:href="#icon-eye3"></use>
     </svg>
 	https://blog.byklo.rent/chiang-mai-travel-guide-5-day-itinerary/</a><br>
 	
 </div><div class="section-item"><h4>Living In Chiang Mai As An Expat Retiree</h4>
 <p>A detailed guide on what it's like to live in Chiang Mai as a retiree.</p>
-<a href="https://www.expatra.com/living-in-chiang-mai/">https://www.expatra.com/living-in-chiang-mai/</a><br>
+<a href="https://www.expatra.com/living-in-chiang-mai/">
+	<svg width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
+      <use xlink:href="#icon-best3"></use>
+	</svg> 
+	https://www.expatra.com/living-in-chiang-mai/</a><br>
 	
 </div><div class="section-item"><h4>Nomad List: Chiang Mai</h4>
 <p>Provides a breakdown of the cost of living, weather, and other metrics for digital nomads.</p>
@@ -2023,6 +2048,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
