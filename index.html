@@ -1885,7 +1885,7 @@ document.getElementById('quirkyBtn').addEventListener('click', function() {
 document.getElementById('bestBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
   const allSectionItems = document.querySelectorAll('div.section-item');
-  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg') !== null);
+  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg#icon-best3') !== null);
   const resultDiv = document.getElementById('bestResult');
   resultDiv.innerHTML = '';
   filtered.forEach(section => {
@@ -1898,7 +1898,7 @@ document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
 	const allSectionItems = document.querySelectorAll('div.section-item');
     const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.newSvg') !== null);
-  //const allSectionItems = document.querySelectorAll('div.section-item .newSvg');
+  //const allSectionItems = document.querySelectorAll('div.section-item');
   //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.newSvg') !== null);
   const resultDiv = document.getElementById('newResult');
   resultDiv.innerHTML = '';
@@ -1971,6 +1971,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
