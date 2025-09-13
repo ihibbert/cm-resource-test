@@ -1888,6 +1888,7 @@ document.getElementById('bestBtn').addEventListener('click', function() {
   const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgBest') !== null);
   const resultDiv = document.getElementById('bestResult');
   resultDiv.innerHTML = '';
+  resultDiv.replaceChildren();
   filtered.forEach(section => {
     const chosen = section.cloneNode(true);
     resultDiv.appendChild(chosen);
@@ -1900,9 +1901,10 @@ document.getElementById('newBtn').addEventListener('click', function() {
     const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgNew') !== null);
     const resultDiv = document.getElementById('newResult');
   resultDiv.innerHTML = '';
+  resultDiv.replaceChildren();
   filtered.forEach(section => {
-    const chosen = section.cloneNode(true);
-    resultDiv.appendChild(chosen);
+    //const chosen = section.cloneNode(true);
+    resultDiv.appendChild(section);
   });
 });
 	
@@ -1969,15 +1971,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
-
-
-
-
-
-
-
-
-
 
 
 
