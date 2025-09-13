@@ -403,7 +403,7 @@
 	Chiang Mai: Cost of Living</h4>
 <p>Cost of Living, Salaries, Prices for Rent & food in Chiang Mai</p>
 <a href="https://livingcost.org/cost/thailand/chiang-mai">
-	<svg width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
+	<svg class="svgBest" width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
       <use xlink:href="#icon-best3"></use>
 	</svg> 
 	https://livingcost.org/cost/thailand/chiang-mai</a><br>
@@ -411,7 +411,7 @@
 <div class="section-item quirky"><h4>Chiang Mai Neighborhood Map</h4>
 <p>Hoodmaps, a crowdsourced, interactive map that captures the "vibe" of neighborhoods</p>
 <a href="https://hoodmaps.com/chiang-mai-neighborhood-map">
-	<svg width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
+	<svg class="svgNew" width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
       <use xlink:href="#icon-new3"></use>
 	</svg>  
 	https://hoodmaps.com/chiang-mai-neighborhood-map</a><br>
@@ -485,7 +485,7 @@ https://www.chiangmai.net/accolades</a><br>
 </div><div class="section-item" data-new-date="2025-07-25"><h4>Chiang Mai Expats Club (CEC)</h4>
 <p>A non-profit organization providing a safety net for expats, hosting monthly meetings, social events, and special interest groups.</p>
 <a href="https://chiangmaiexpatsclub.com/">
-	<svg width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
+	<svg class="svgBest" width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
       <use xlink:href="#icon-best3"></use>
 	</svg> 
 	https://chiangmaiexpatsclub.com/</a><br>
@@ -912,7 +912,7 @@ https://www.chiangmai.net/accolades</a><br>
 </div><div class="section-item"><h4>CMHY.city</h4>
 <p>Chiang Mai Help You - An online directory of (many, many, many) shops, services, and businesses in Chiang Mai.</p>
 <a href="https://www.cmhy.city/en">
-	<svg width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
+	<svg class="svgBest" width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
       <use xlink:href="#icon-best3"></use>
 	</svg> 
 	https://www.cmhy.city/en</a><br>
@@ -1885,7 +1885,7 @@ document.getElementById('quirkyBtn').addEventListener('click', function() {
 document.getElementById('bestBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
   const allSectionItems = document.querySelectorAll('div.section-item');
-  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg #icon-best3') !== null);
+  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgBest') !== null);
   const resultDiv = document.getElementById('bestResult');
   resultDiv.innerHTML = '';
   filtered.forEach(section => {
@@ -1897,7 +1897,7 @@ document.getElementById('bestBtn').addEventListener('click', function() {
 document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
 	const allSectionItems = document.querySelectorAll('div.section-item');
-    const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg') !== null);
+    const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgNew') !== null);
     const resultDiv = document.getElementById('newResult');
   resultDiv.innerHTML = '';
   filtered.forEach(section => {
@@ -1969,6 +1969,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
