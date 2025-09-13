@@ -8850,28 +8850,21 @@ div.section, div.section-header, div.chapter-header, div.chapter {
 document.addEventListener('DOMContentLoaded', function() {
   const isMemberCheckbox = document.querySelector('#isMember');
   const chapterItems = document.querySelectorAll('.chapter-content');
-
   function toggleSectionItems() {
     chapterItems.forEach(function(ch) {
-            if (isMemberCheckbox.checked) {
-              ch.classList.add('member-content');
-            } else {
-              ch.classList.remove('member-content');
-            }
-          });
-        };
+      if (isMemberCheckbox.checked) {
+        ch.classList.add('member-content');
+      } else {
+        ch.classList.remove('member-content');
+      }
+    });
   }
-
   isMemberCheckbox.addEventListener('change', toggleSectionItems);
-
   // Initialize on load
   toggleSectionItems();
 });
-    </script>
+</script>
+
   </body>
 
 </html>
-
-
-
-
