@@ -158,9 +158,7 @@ where
 
 **s** is the single line summary, and
 
-**l** is the url address. 
-
-
+**l** is the url address (in 2 places, making it both obvious where you will click to, and giving you a hint where to search if the link is broken). 
 
 An item can be permanently marked NEW if the **new-link** class is added:
 
