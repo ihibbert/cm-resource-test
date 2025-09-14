@@ -1866,6 +1866,11 @@ document.getElementById('clearBtn').addEventListener('click', function() {
 	
 document.getElementById('quirkyBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
+	
+  document.getElementById('bestResult').replaceChildren();
+  document.getElementById('newResult').replaceChildren(); 
+  document.getElementById('quirkyResult').replaceChildren();
+	
   //document.getElementById('clearBtn').​click();
   const quirkyItems = Array.from(document.querySelectorAll('.section-item'));
   if (quirkyItems.length === 0) {
@@ -1884,7 +1889,11 @@ document.getElementById('quirkyBtn').addEventListener('click', function() {
 
 document.getElementById('bestBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
-  document.getElementById('bestResult').replaceChildren(); 
+	
+  document.getElementById('bestResult').replaceChildren();
+  document.getElementById('newResult').replaceChildren(); 
+  document.getElementById('quirkyResult').replaceChildren();
+	
   const allSectionItems = document.querySelectorAll('div.section-item');
   const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgBest') !== null);
   const resultDiv = document.getElementById('bestResult');
@@ -1897,7 +1906,11 @@ document.getElementById('bestBtn').addEventListener('click', function() {
 
 document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
+	
+  document.getElementById('bestResult').replaceChildren();
   document.getElementById('newResult').replaceChildren(); 
+  document.getElementById('quirkyResult').replaceChildren();
+	
   const allSectionItems = document.querySelectorAll('div.section-item');
   const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgNew') !== null);
   const resultDiv = document.getElementById('newResult');
@@ -1971,6 +1984,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
