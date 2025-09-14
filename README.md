@@ -134,26 +134,41 @@ Site published: https://ihibbert.github.io/cm-resource-test/
 
 Each list item typically looks like:
 
-</div><div class="section-item" data-new-date="2025-08-19"><h4>Why I Live in Chiang Mai</h4>
+```
+</div><div class="section-item" data-new-date="2025-08-19">
+<h4>Why I Live in Chiang Mai</h4>
 <p>A personal blog post detailing the reasons for choosing Chiang Mai.</p>
-<a href="https://www.neverendingvoyage.com/living-chiang-mai-guide/">https://www.neverendingvoyage.com/living-chiang-mai-guide/</a><br>
+<a href="https://www.neverendingvoyage.com/living-chiang-mai-guide/">
+https://www.neverendingvoyage.com/living-chiang-mai-guide/</a><br>
+```
 
 To create a new item fill in the template:
 
+```
 </div><div class="section-item" data-new-date="d"><h4>t</h4>
 <p>s</p>
 <a href="l">l</a><br>
+```
 
 where
 
-t is the title, s is the single line summary, l is the url address, and
-d is a date of the form YYYY-MM-DD, eg 2025-08-19. 
+**d** is a date of the form YYYY-MM-DD, eg 2025-08-19. If the date is within 28 days then the item has a NEW icon,
 
-If the date is within 28 days then the item has a NEW icon. 
+**t** is the title, 
 
-An item can be permanently marked NEW if <div class="section-item new-link"... 
+**s** is the single line summary, and
 
-An item can be marked BEST if <div class="section-item best-link"... 
+**l** is the url address. 
+
+
+
+An item can be permanently marked NEW if the **new-link** class is added:
+
+`<div class="section-item new-link"... `
+
+An item can be marked BEST if the **best-link** class is added:
+
+`<div class="section-item best-link"... `
 
 
 
