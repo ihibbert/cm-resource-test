@@ -417,18 +417,17 @@ https://www.chiangmai.net/accolades</a><br>
 <p>Hoodmaps, a crowdsourced, interactive map that captures the "vibe" of neighborhoods</p>
 <a href="https://hoodmaps.com/chiang-mai-neighborhood-map">
 	https://hoodmaps.com/chiang-mai-neighborhood-map</a><br>
-</div>
 
 </div><div class="section-item"><h4>GetYourGuide Chiang Mai Cultural Attractions</h4>
 <p>First time in Chiang Mai - Highlights must-visit cultural attractions like Wat Phra That Doi Suthep, Chiang Mai Night Bazaar, and Wat Chedi Luang.</p>
 <a href="https://www.getyourguide.com/explorer/chiang-mai-ttd271/first-time-in-chiang-mai/">https://www.getyourguide.com/explorer/chiang-mai-ttd271/first-time-in-chiang-mai/</a><br>
 
-</div><div class="section-item"><h4>Lonely Planet Chiang Mai Guide</h4>
+</div><div class="section-item best-link"><h4>Lonely Planet Chiang Mai Guide</h4>
 <p>Lonely Planet's recommended attractions, including temples, museums, and markets.</p>
 	<a href="https://www.lonelyplanet.com/destinations/thailand/chiang-mai-province/chiang-mai">
 	https://www.lonelyplanet.com/destinations/thailand/chiang-mai-province/chiang-mai</a><br>
 	
-</div><div class="section-item"><h4>Nomadic Matt Top Things to Do</h4>
+</div><div class="section-item new-link"><h4>Nomadic Matt Top Things to Do</h4>
 <p>Covers must-visit attractions like Wat Phra That Doi Suthep, ethical elephant sanctuaries, and Doi Inthanon National Park.</p>
 <a href="https://blog.byklo.rent/chiang-mai-travel-guide-5-day-itinerary/">
 	https://blog.byklo.rent/chiang-mai-travel-guide-5-day-itinerary/</a><br>
@@ -1919,6 +1918,65 @@ document.getElementById('bestBtn').addEventListener('click', function() {
 </script>
 
 <script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Select all section-item elements with the best-link class
+  const bestSections = document.querySelectorAll('.section-item.best-link');
+
+  bestSections.forEach(section => {
+    const anchor = section.querySelector('a');
+    if (anchor) {
+      // Create SVG element
+      const svgNS = "http://www.w3.org/2000/svg";
+      const svg = document.createElementNS(svgNS, "svg");
+      svg.setAttribute("class", "svgBest");
+      svg.setAttribute("width", "120");
+      svg.setAttribute("height", "72");
+      svg.setAttribute("viewBox", "0 0 100 60");
+      svg.setAttribute("style", "vertical-align:middle;");
+      svg.setAttribute("aria-hidden", "true");
+
+      // Create the <use> element for referencing the icon
+      const use = document.createElementNS(svgNS, "use");
+      use.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", "#icon-best3");
+
+      svg.appendChild(use);
+
+      // Insert SVG at the beginning of the anchor
+      anchor.insertBefore(svg, anchor.firstChild);
+    }
+  });
+});
+
+	document.addEventListener("DOMContentLoaded", function () {
+  // Select all section-item elements with the new-link class
+  const newSections = document.querySelectorAll('.section-item.new-link');
+
+  newSections.forEach(section => {
+    const anchor = section.querySelector('a');
+    if (anchor) {
+      // Create SVG element
+      const svgNS = "http://www.w3.org/2000/svg";
+      const svg = document.createElementNS(svgNS, "svg");
+      svg.setAttribute("class", "svgNew");
+      svg.setAttribute("width", "120");
+      svg.setAttribute("height", "72");
+      svg.setAttribute("viewBox", "0 0 100 60");
+      svg.setAttribute("style", "vertical-align:middle;");
+      svg.setAttribute("aria-hidden", "true");
+
+      // Create the <use> element for referencing the icon
+      const use = document.createElementNS(svgNS, "use");
+      use.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", "#icon-new3");
+
+      svg.appendChild(use);
+
+      // Insert SVG at the beginning of the anchor
+      anchor.insertBefore(svg, anchor.firstChild);
+    }
+  });
+});
+
+	
   document.addEventListener("DOMContentLoaded", function () {
     const items = document.querySelectorAll('[data-new-date]');
 
@@ -1979,6 +2037,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
