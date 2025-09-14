@@ -1884,12 +1884,11 @@ document.getElementById('quirkyBtn').addEventListener('click', function() {
 
 document.getElementById('bestBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
-  document.getElementById('bestResult').replaceChildren(); 
+  //document.getElementById('bestResult').replaceChildren(); 
   const allSectionItems = document.querySelectorAll('div.section-item');
   const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgBest') !== null);
   const resultDiv = document.getElementById('bestResult');
-  //resultDiv.innerHTML = '';
-  //resultDiv.replaceChildren();
+  resultDiv.replaceChildren();
   filtered.forEach(section => {
     const chosen = section.cloneNode(true);
     resultDiv.appendChild(chosen);
@@ -1898,15 +1897,14 @@ document.getElementById('bestBtn').addEventListener('click', function() {
 
 document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
-  document.getElementById('newResult').replaceChildren(); 
+  //document.getElementById('newResult').replaceChildren(); 
   const allSectionItems = document.querySelectorAll('div.section-item');
   const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgNew') !== null);
   const resultDiv = document.getElementById('newResult');
-  //resultDiv.innerHTML = '';
-  //resultDiv.replaceChildren();
+  resultDiv.replaceChildren();
   filtered.forEach(section => {
-    //const chosen = section.cloneNode(true);
-    resultDiv.appendChild(section);
+    const chosen = section.cloneNode(true);
+    resultDiv.appendChild(chosen);
   });
 });
 	
@@ -1973,6 +1971,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
