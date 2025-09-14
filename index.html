@@ -1887,23 +1887,6 @@ document.getElementById('quirkyBtn').addEventListener('click', function() {
   resultDiv.appendChild(chosen);
 });
 
-document.getElementById('bestBtn').addEventListener('click', function() {
-  document.getElementById('searchInput').value = '';
-	
-  document.getElementById('bestResult').replaceChildren();
-  document.getElementById('newResult').replaceChildren(); 
-  document.getElementById('quirkyResult').replaceChildren();
-	
-  const allSectionItems = document.querySelectorAll('div.new-link');
-  //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgBest') !== null);
-  const resultDiv = document.getElementById('bestResult');
-  resultDiv.replaceChildren();
-  items.forEach(section => {
-    const chosen = section.cloneNode(true);
-    resultDiv.appendChild(chosen);
-  });
-});
-
 document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('searchInput').value = '';
 	
@@ -1911,13 +1894,28 @@ document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('newResult').replaceChildren(); 
   document.getElementById('quirkyResult').replaceChildren();
 	
-  const items = document.querySelectorAll('div.best-link');
-  //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgNew') !== null);
-  const resultDiv = document.getElementById('newResult');
-  resultDiv.replaceChildren();
-  items.forEach(section => {
-    const chosen = section.cloneNode(true);
-    resultDiv.appendChild(chosen);
+  const newItems = document.querySelectorAll('div.new-link');
+  const newResultDiv = document.getElementById('newResult');
+  newResultDiv.replaceChildren();
+  newItems.forEach(section => {
+    const chosenNew = section.cloneNode(true);
+    newResultDiv.appendChild(chosenNew);
+  });
+});
+
+document.getElementById('bestBtn').addEventListener('click', function() {
+  document.getElementById('searchInput').value = '';
+	
+  document.getElementById('bestResult').replaceChildren();
+  document.getElementById('newResult').replaceChildren(); 
+  document.getElementById('quirkyResult').replaceChildren();
+	
+  const bestItems = document.querySelectorAll('div.best-link');
+  const bestResultDiv = document.getElementById('bestResult');
+  bestResultDiv.replaceChildren();
+  bestItems.forEach(section => {
+    const chosenBest = section.cloneNode(true);
+    bestResultDiv.appendChild(chosenBest);
   });
 });
 	
@@ -1984,6 +1982,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
