@@ -1912,8 +1912,50 @@ document.getElementById('bestBtn').addEventListener('click', function() {
 
 <script>
 
-	/*
 document.addEventListener("DOMContentLoaded", function () {
+
+const items = document.querySelectorAll('[data-new-date]');
+  const today = new Date();
+  items.forEach(item => {
+    const isPermanentNewItem = item.querySelector('.new-link');
+    if (!isPermanentNewItem) {
+      const dateStr = item.getAttribute('data-new-date');
+      const addedDate = new Date(dateStr);
+      const diffDays = (today - addedDate) / (1000 * 60 * 60 * 24);
+      if (diffDays <= 28) {
+        item.classList.add('new-link');
+      }
+    }
+  });
+
+// Select all section-item elements with the new-link class
+  const newSections = document.querySelectorAll('.section-item.new-link');
+
+  newSections.forEach(section => {
+    const anchor = section.querySelector('a');
+    if (anchor) {
+      // Create SVG element
+      const svgNS = "http://www.w3.org/2000/svg";
+      const svg = document.createElementNS(svgNS, "svg");
+      svg.setAttribute("class", "svgNew");
+      svg.setAttribute("width", "120");
+      svg.setAttribute("height", "72");
+      svg.setAttribute("viewBox", "0 0 100 60");
+      svg.setAttribute("style", "vertical-align:middle;");
+      svg.setAttribute("aria-hidden", "true");
+
+      // Create the <use> element for referencing the icon
+      const use = document.createElementNS(svgNS, "use");
+      use.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", "#icon-new3");
+
+      svg.appendChild(use);
+
+      // Insert SVG at the beginning of the anchor
+      anchor.insertBefore(svg, anchor.firstChild);
+    }
+  });
+	
+	
   // Select all section-item elements with the best-link class
   const bestSections = document.querySelectorAll('.section-item.best-link');
 
@@ -1942,69 +1984,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-	document.addEventListener("DOMContentLoaded", function () {
-  // Select all section-item elements with the new-link class
-  const newSections = document.querySelectorAll('.section-item.new-link');
 
-  newSections.forEach(section => {
-    const anchor = section.querySelector('a');
-    if (anchor) {
-      // Create SVG element
-      const svgNS = "http://www.w3.org/2000/svg";
-      const svg = document.createElementNS(svgNS, "svg");
-      svg.setAttribute("class", "svgNew");
-      svg.setAttribute("width", "120");
-      svg.setAttribute("height", "72");
-      svg.setAttribute("viewBox", "0 0 100 60");
-      svg.setAttribute("style", "vertical-align:middle;");
-      svg.setAttribute("aria-hidden", "true");
-
-      // Create the <use> element for referencing the icon
-      const use = document.createElementNS(svgNS, "use");
-      use.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", "#icon-new3");
-
-      svg.appendChild(use);
-
-      // Insert SVG at the beginning of the anchor
-      anchor.insertBefore(svg, anchor.firstChild);
-    }
-  });
-});
 	
-
-  document.addEventListener("DOMContentLoaded", function () {
-  const items = document.querySelectorAll('[data-new-date]');
-  const today = new Date();
-  items.forEach(item => {
-    const isPermanentNewItem = item.querySelector('.new-link');
-    if (!isPermanentNewItem) {
-      const dateStr = item.getAttribute('data-new-date');
-      const addedDate = new Date(dateStr);
-      const diffDays = (today - addedDate) / (1000 * 60 * 60 * 24);
-      if (diffDays <= 28) {
-        const anchor = item.querySelector('a');
-        if (anchor) {
-          // Create SVG element
-          const svgNS = "http://www.w3.org/2000/svg";
-          const svg = document.createElementNS(svgNS, "svg");
-          svg.setAttribute("class", "svgNew");
-          svg.setAttribute("width", "120");
-          svg.setAttribute("height", "72");
-          svg.setAttribute("viewBox", "0 0 100 60");
-          svg.setAttribute("style", "vertical-align:middle;");
-          svg.setAttribute("aria-hidden", "true");
-          // Create the <use> element for referencing the icon
-          const use = document.createElementNS(svgNS, "use");
-          use.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", "#icon-new3");
-          svg.appendChild(use);
-          // Insert SVG at the beginning of the anchor
-          anchor.insertBefore(svg, anchor.firstChild);
-        }
-      }
-    }
-  });
-});
-*/
 </script>
 
 <script>
@@ -2041,6 +2022,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
 
