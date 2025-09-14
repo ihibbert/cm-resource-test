@@ -399,7 +399,7 @@
 <br>
 </div>	
 
-<div class="section-item"><h4>
+<div class="section-item best-link"><h4>
 	Chiang Mai: Cost of Living</h4>
 <p>Cost of Living, Salaries, Prices for Rent & food in Chiang Mai</p>
 <a href="https://livingcost.org/cost/thailand/chiang-mai">
@@ -408,7 +408,7 @@
 	</svg> 
 	https://livingcost.org/cost/thailand/chiang-mai</a><br>
 
-<div class="section-item quirky" data-new-date="2025-09-10"><h4>Chiang Mai Neighborhood Map</h4>
+<div class="section-item quirky new-link" data-new-date="2025-09-10"><h4>Chiang Mai Neighborhood Map</h4>
 <p>Hoodmaps, a crowdsourced, interactive map that captures the "vibe" of neighborhoods</p>
 <a href="https://hoodmaps.com/chiang-mai-neighborhood-map">
 	<svg class="svgNew" width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
@@ -426,20 +426,17 @@ https://www.chiangmai.net/accolades</a><br>
 <p>First time in Chiang Mai - Highlights must-visit cultural attractions like Wat Phra That Doi Suthep, Chiang Mai Night Bazaar, and Wat Chedi Luang.</p>
 <a href="https://www.getyourguide.com/explorer/chiang-mai-ttd271/first-time-in-chiang-mai/">https://www.getyourguide.com/explorer/chiang-mai-ttd271/first-time-in-chiang-mai/</a><br>
 
-</div><div class="section-item"><h4>Lonely Planet Chiang Mai Guide</h4>
+</div><div class="section-item best-link"><h4>Lonely Planet Chiang Mai Guide</h4>
 <p>Lonely Planet's recommended attractions, including temples, museums, and markets.</p>
 	<a href="https://www.lonelyplanet.com/destinations/thailand/chiang-mai-province/chiang-mai">
-      <svg class="svgBest" width="120" height="72" viewBox="0 0 100 60" style="vertical-align:middle;" aria-hidden="true">
-        <use xlink:href="#icon-best3"></use>
-	  </svg>
 	https://www.lonelyplanet.com/destinations/thailand/chiang-mai-province/chiang-mai</a><br>
 	
-</div><div class="section-item"><h4>Nomadic Matt Top Things to Do</h4>
+</div><div class="section-item new-link"><h4>Nomadic Matt Top Things to Do</h4>
 <p>Covers must-visit attractions like Wat Phra That Doi Suthep, ethical elephant sanctuaries, and Doi Inthanon National Park.</p>
 <a href="https://blog.byklo.rent/chiang-mai-travel-guide-5-day-itinerary/">
 	https://blog.byklo.rent/chiang-mai-travel-guide-5-day-itinerary/</a><br>
 	
-</div><div class="section-item"><h4>Living In Chiang Mai As An Expat Retiree</h4>
+</div><div class="section-item best-link"><h4>Living In Chiang Mai As An Expat Retiree</h4>
 <p>A detailed guide on what it's like to live in Chiang Mai as a retiree.</p>
 <a href="https://www.expatra.com/living-in-chiang-mai/">
 	https://www.expatra.com/living-in-chiang-mai/</a><br>
@@ -1897,11 +1894,11 @@ document.getElementById('bestBtn').addEventListener('click', function() {
   document.getElementById('newResult').replaceChildren(); 
   document.getElementById('quirkyResult').replaceChildren();
 	
-  const allSectionItems = document.querySelectorAll('div.section-item');
-  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgBest') !== null);
+  const allSectionItems = document.querySelectorAll('div.section-item.best-link');
+  //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgBest') !== null);
   const resultDiv = document.getElementById('bestResult');
   resultDiv.replaceChildren();
-  filtered.forEach(section => {
+  items.forEach(section => {
     const chosen = section.cloneNode(true);
     resultDiv.appendChild(chosen);
   });
@@ -1914,11 +1911,11 @@ document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('newResult').replaceChildren(); 
   document.getElementById('quirkyResult').replaceChildren();
 	
-  const allSectionItems = document.querySelectorAll('div.section-item');
-  const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgNew') !== null);
+  const items = document.querySelectorAll('div.section-item.new-link');
+  //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgNew') !== null);
   const resultDiv = document.getElementById('newResult');
   resultDiv.replaceChildren();
-  filtered.forEach(section => {
+  items.forEach(section => {
     const chosen = section.cloneNode(true);
     resultDiv.appendChild(chosen);
   });
@@ -1987,14 +1984,5 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
-
-
-
-
-
-
-
-
-
 
 
