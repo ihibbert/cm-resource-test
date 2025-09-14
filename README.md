@@ -130,9 +130,31 @@ Need to generate a new Google form question each week and get information if spo
 
 Site published: https://ihibbert.github.io/cm-resource-test/
 
+## Maintenance of CM Links list
 
-Trim search string of trailing spaces. 
+Each list item typically looks like:
 
-Button next to random to show all new items. 
+</div><div class="section-item" data-new-date="2025-08-19"><h4>Why I Live in Chiang Mai</h4>
+<p>A personal blog post detailing the reasons for choosing Chiang Mai.</p>
+<a href="https://www.neverendingvoyage.com/living-chiang-mai-guide/">https://www.neverendingvoyage.com/living-chiang-mai-guide/</a><br>
+
+To create a new item fill in the template:
+
+</div><div class="section-item" data-new-date="d"><h4>t</h4>
+<p>s</p>
+<a href="l">l</a><br>
+
+where
+
+t is the title, s is the single line summary, l is the url address, and
+d is a date of the form YYYY-MM-DD, eg 2025-08-19. 
+
+If the date is within 28 days then the item has a NEW icon. 
+
+An item can be permanently marked NEW if <div class="section-item new-link"... 
+
+An item can be marked BEST if <div class="section-item best-link"... 
+
+
 
 ### end ###
