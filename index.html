@@ -417,7 +417,7 @@
 	https://hoodmaps.com/chiang-mai-neighborhood-map</a><br>
 </div>
 	
-</div><div class="section-item"><h4>Chiang Mai Accolades</h4>
+</div><div class="section-item new-link"><h4>Chiang Mai Accolades</h4>
 <p>A collection of the accolades and positive rankings for Chiang Mai</p>
 <a href="https://www.chiangmai.net/accolades">
 https://www.chiangmai.net/accolades</a><br>
@@ -1894,7 +1894,7 @@ document.getElementById('bestBtn').addEventListener('click', function() {
   document.getElementById('newResult').replaceChildren(); 
   document.getElementById('quirkyResult').replaceChildren();
 	
-  const allSectionItems = document.querySelectorAll('div.section-item.best-link');
+  const allSectionItems = document.querySelectorAll('div.best-link');
   //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgBest') !== null);
   const resultDiv = document.getElementById('bestResult');
   resultDiv.replaceChildren();
@@ -1911,7 +1911,7 @@ document.getElementById('newBtn').addEventListener('click', function() {
   document.getElementById('newResult').replaceChildren(); 
   document.getElementById('quirkyResult').replaceChildren();
 	
-  const items = document.querySelectorAll('div.section-item.new-link');
+  const items = document.querySelectorAll('div.new-link');
   //const filtered = Array.from(allSectionItems).filter(div => div.querySelector('svg.svgNew') !== null);
   const resultDiv = document.getElementById('newResult');
   resultDiv.replaceChildren();
@@ -1984,5 +1984,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
+
 
 
