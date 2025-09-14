@@ -418,38 +418,38 @@ https://www.chiangmai.net/accolades</a><br>
 <a href="https://hoodmaps.com/chiang-mai-neighborhood-map">
 	https://hoodmaps.com/chiang-mai-neighborhood-map</a><br>
 
-</div><div class="section-item"><h4>GetYourGuide Chiang Mai Cultural Attractions</h4>
+</div><div class="section-item" data-new-date="2025-07-10"><h4>GetYourGuide Chiang Mai Cultural Attractions</h4>
 <p>First time in Chiang Mai - Highlights must-visit cultural attractions like Wat Phra That Doi Suthep, Chiang Mai Night Bazaar, and Wat Chedi Luang.</p>
 <a href="https://www.getyourguide.com/explorer/chiang-mai-ttd271/first-time-in-chiang-mai/">https://www.getyourguide.com/explorer/chiang-mai-ttd271/first-time-in-chiang-mai/</a><br>
 
-</div><div class="section-item"><h4>Lonely Planet Chiang Mai Guide</h4>
+</div><div class="section-item" data-new-date="2025-06-10"><h4>Lonely Planet Chiang Mai Guide</h4>
 <p>Lonely Planet's recommended attractions, including temples, museums, and markets.</p>
 	<a href="https://www.lonelyplanet.com/destinations/thailand/chiang-mai-province/chiang-mai">
 	https://www.lonelyplanet.com/destinations/thailand/chiang-mai-province/chiang-mai</a><br>
 	
-</div><div class="section-item"><h4>Nomadic Matt Top Things to Do</h4>
+</div><div class="section-item" data-new-date="2025-08-15"><h4>Nomadic Matt Top Things to Do</h4>
 <p>Covers must-visit attractions like Wat Phra That Doi Suthep, ethical elephant sanctuaries, and Doi Inthanon National Park.</p>
 <a href="https://blog.byklo.rent/chiang-mai-travel-guide-5-day-itinerary/">
 	https://blog.byklo.rent/chiang-mai-travel-guide-5-day-itinerary/</a><br>
 	
-</div><div class="section-item"><h4>Living In Chiang Mai As An Expat Retiree</h4>
+</div><div class="section-item" data-new-date="2025-08-16"><h4>Living In Chiang Mai As An Expat Retiree</h4>
 <p>A detailed guide on what it's like to live in Chiang Mai as a retiree.</p>
 <a href="https://www.expatra.com/living-in-chiang-mai/">
 	https://www.expatra.com/living-in-chiang-mai/</a><br>
 	
-</div><div class="section-item"><h4>Nomad List: Chiang Mai</h4>
+</div><div class="section-item" data-new-date="2025-08-17"><h4>Nomad List: Chiang Mai</h4>
 <p>Provides a breakdown of the cost of living, weather, and other metrics for digital nomads.</p>
 <a href="https://nomads.com/chiang-mai">https://nomads.com/chiang-mai</a><br>
 
-</div><div class="section-item"><h4>Chiang Mai Travel Guide</h4>
+</div><div class="section-item" data-new-date="2025-08-18"><h4>Chiang Mai Travel Guide</h4>
 <p>A general travel guide from a popular travel blog, useful for getting to know the city.</p>
 <a href="https://www.hotels.com/go/thailand/chiang-mai">https://www.hotels.com/go/thailand/chiang-mai</a><br>
 
-</div><div class="section-item"><h4>Why I Live in Chiang Mai</h4>
+</div><div class="section-item" data-new-date="2025-08-19"><h4>Why I Live in Chiang Mai</h4>
 <p>A personal blog post detailing the reasons for choosing Chiang Mai.</p>
 <a href="https://www.neverendingvoyage.com/living-chiang-mai-guide/">https://www.neverendingvoyage.com/living-chiang-mai-guide/</a><br>
 
-</div><div class="section-item"><h4>Retiring in Thailand (Forbes Article)</h4>
+</div><div class="section-item new-link" data-new-date="2025-09-10"><h4>Retiring in Thailand (Forbes Article)</h4>
 <p>An article from Forbes highlighting the benefits of retiring in Thailand.</p>
 <a href="https://www.forbes.com/sites/kathleenpeddicord/2025/04/05/retiring-in-thailand-what-you-need-to-know/">https://www.forbes.com/sites/kathleenpeddicord/2025/04/05/retiring-in-thailand-what-you-need-to-know/</a><br>
 
@@ -457,7 +457,7 @@ https://www.chiangmai.net/accolades</a><br>
 <p>A comprehensive A-Z guide for residents. Chiang Mai's largest online business directory with more than 7,000 places listed.</p>
 <a href="https://www.chiangmailocator.com/">https://www.chiangmailocator.com/</a><br>
 
-</div><div class="section-item"><h4>Chiang Mai Information and Guide from the Tourism Authority of Thailand</h4>
+</div><div class="section-item new-link" data-new-date="2025-01-10"><h4>Chiang Mai Information and Guide from the Tourism Authority of Thailand</h4>
 <a href="https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101">https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101</a><br>
 
 </div><div class="section-item"><h4>International Living Overview</h4>
@@ -1976,22 +1976,37 @@ document.addEventListener("DOMContentLoaded", function () {
     const today = new Date();
 
     items.forEach(item => {
-      const dateStr = item.getAttribute('data-new-date');
-      const addedDate = new Date(dateStr);
-      const diffDays = (today - addedDate) / (1000 * 60 * 60 * 24);
+	  const isPermanentNewItem = item.querySelector('.new-link');
+      if (!isPermanentNewItem) {
+        const dateStr = item.getAttribute('data-new-date');
+        const addedDate = new Date(dateStr);
+        const diffDays = (today - addedDate) / (1000 * 60 * 60 * 24);
 
-      if (diffDays <= 28) {
-        const placeholder = item.querySelector('.new-icon-placeholder');
-        if (placeholder) {
-          const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-          svg.setAttribute("class", "icon-new");
-          svg.setAttribute("aria-hidden", "true");
-          const use = document.createElementNS("http://www.w3.org/2000/svg", "use");
-          use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#icon-new");
-          svg.appendChild(use);
-          placeholder.appendChild(svg);
-        }
+        if (diffDays <= 28) {
+          const anchor = item.querySelector('a');
+          if (anchor) {
+      // Create SVG element
+      const svgNS = "http://www.w3.org/2000/svg";
+      const svg = document.createElementNS(svgNS, "svg");
+      svg.setAttribute("class", "svgNew");
+      svg.setAttribute("width", "120");
+      svg.setAttribute("height", "72");
+      svg.setAttribute("viewBox", "0 0 100 60");
+      svg.setAttribute("style", "vertical-align:middle;");
+      svg.setAttribute("aria-hidden", "true");
+
+      // Create the <use> element for referencing the icon
+      const use = document.createElementNS(svgNS, "use");
+      use.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", "#icon-new3");
+
+      svg.appendChild(use);
+
+      // Insert SVG at the beginning of the anchor
+      anchor.insertBefore(svg, anchor.firstChild);
+    }
+
       }
+     }​
     });
   });
 </script>
@@ -2030,13 +2045,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </body> 
 
 </html>
-
-
-
-
-
-
-
 
 
 
